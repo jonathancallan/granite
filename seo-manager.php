@@ -44,10 +44,18 @@ $ogUrl = "https://www.granite.ie/seo-manager";
 
               <p>This is a dynamic role where the requirement for no two clients will be exactly the same and will require a strategic agility to adapt plans to a changing environment. Some of the common responsibilities across of each client will be:</p>
 
-              <p>&bull; Development of performance based SEO strategies for clients<br /> &bull; Conducting keyword research and content audits on clients&rsquo; websites<br /> &bull; Conducting technical analysis, local SEO audits and off-page SEO analyses<br
-                /> &bull; Execution and adaption of the strategies to ensure results are reached<br /> &bull; Optimisation of content and landing pages, filling content gaps as required<br /> &bull; Implemention of technical updates, and liaising with
-                developers on technical improvements<br /> &bull; Development and Execution of link acquisition campaigns<br /> &bull; Evaluation of results reporting to clients<br /> &bull; Remaining up to date with SEO trends and advances</p>
-
+              <ul>
+                <li>Development of performance based SEO strategies for clients</li>
+                <li>Conducting keyword research and content audits on clients&rsquo; websites</li>
+                <li>Conducting technical analysis, local SEO audits and off-page SEO analyses</li>
+                <li>Execution and adaption of the strategies to ensure results are reached</li>
+                <li>Optimisation of content and landing pages, filling content gaps as required</li>
+                <li>Implemention of technical updates, and liaising with
+                developers on technical improvements</li>
+                <li>Development and Execution of link acquisition campaigns</li>
+                <li>Evaluation of results reporting to clients</li>
+                <li>Remaining up to date with SEO trends and advances</li>
+              </ul>
 
               <h3>Qualifications and experience required</h3>
 
