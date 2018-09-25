@@ -1,3 +1,9 @@
+<?php
+$metaTitle = "Digital Agency Cork & Dublin | Granite Careers";
+$metaDescription = "Granite Digital is a Cork & Dublin based digital agency with expertise in Digital Marketing providing clients with Website Development, Web Design, SEO, PPC, email marketing and Social Media as well as online software & application development";
+$metaKeywords = "Granite Digital, Digital Crew";
+$ogUrl = "https://www.granite.ie/";
+?>
 <?php require 'inc/head.php'; ?>
 
 <body class="careers landing">
@@ -38,10 +44,10 @@
           <div class="col-12 offset-md-2 col-md-4 col-lg-4">
             <div class="row">
               <div class="col-12 padding-b">
-                <h2><a href="">SEO Manager</a></h2>
+                <h2><a href="./seo-manager.php">SEO Manager</a></h2>
                 <p>At Granite Digital we are offering a fantastic opportunity for an experienced SEO Specialist to join our expanding team. We are looking for someone with a passion for all things SEO combined with drive, enthusiasm and a real passion for
                   achieving results. The successful candidate will join a team of SEO experts working on developing & executing SEO strategies that significantly impact on clients’ websites performance.</p>
-                <p><a href="" class="icon forward">Find out more</a></p>
+                <p><a href="./seo-manager.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="">Accounts Assistant</a></h2>

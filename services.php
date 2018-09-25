@@ -27,9 +27,9 @@ $ogUrl = "https://www.granite.ie";
       <div class="container-fluid">
         <div class="row">
           <div class="offset-sm-2 col-sm-5 offset-lg-6 col-lg-3 padding-b">
-            <h2><a href="">Design</a></h2>
+            <h2><a href="./design.php">Design</a></h2>
             <p>Our team of experts will simplify the process for you, making it a jargon free experience and ensuring you create the best face for your business online.</p>
-            <p><a href="" class="icon forward">Find out more</a></p>
+            <p><a href="./design.php" class="icon forward">Find out more</a></p>
           </div>
           <div class="col-sm-5 col-lg-3 padding-b">
             <h2><a href="./web-development.php">Development</a></h2>

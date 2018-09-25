@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/blogging";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./digital-marketing.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>Blogging</h1>
               <p>"B2B companies that blog generate 67% more leads than those who don't blog".</p>

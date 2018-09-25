@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/search-engine-optimisation-seo";
         <div class="row">
           <div class="col offset-sm-3">
             <nav class="backlink">
-              <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+              <a href="./digital-marketing.php"><img src="./img/arrow.svg" alt="Services"></a>
             </nav>
             <h1>Search Engine Optimisation SEO</h1>
             <p>Granite Digital have been successfully involved in SEO for many years. Our Search Optimisation (SEO) services are varied and extensive with the objective of always achieving maximum visibility for our clients' online content in the SERP’s (search engine results pages).</p>

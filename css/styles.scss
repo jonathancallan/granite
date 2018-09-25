@@ -63,11 +63,11 @@ img {
   background-size : contain;
 }
 /* ---------------------------- Apply Page Colours ---------------------------- */
-
 .bg-white {
   background-color: $color-white;
 }
 /* Work */
+
 .work {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -80,6 +80,7 @@ img {
   }
 }
 /* Services */
+
 .services {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -92,6 +93,7 @@ img {
   }
 }
 /* About */
+
 .about {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -104,6 +106,7 @@ img {
   }
 }
 /* Careers */
+
 .careers {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -116,6 +119,7 @@ img {
   }
 }
 /* ---------------------------- Type General ---------------------------- */
+
 body {
   font-family: $font-family-body;
   font-size  : $font-size-base;
@@ -131,6 +135,7 @@ p {
   line-height: 2;
 }
 /* ---------------------------- Hero ---------------------------- */
+
 .hero {
   margin-top   : 30vh;
   margin-bottom: 7vw;
@@ -151,7 +156,6 @@ p {
   }
 }
 /*  Hero Landing Pages */
-
 .landing {
   .hero {
     h1 {
@@ -183,7 +187,6 @@ p {
   }
 }
 /*  Hero Standard Pages */
-
 .standard {
   .hero {
     margin-top   : 30vh;
@@ -297,6 +300,7 @@ video#masked {
 }
 /* ---------------------------- Hero Inside ---------------------------- */
 /* ---------------------------- Section Content Standard ---------------------------- */
+
 .content {
   margin-top   : $spacer * 5;
   margin-bottom: $spacer * 5;
@@ -333,6 +337,13 @@ video#masked {
       height          : 2px;
       background-color: $color-black;
     }
+  }
+
+  ol+h2,
+  p+h2,
+  table+h2,
+  ul+h2 {
+    margin-top: $spacer*10;
   }
 
   h3 {
@@ -391,6 +402,7 @@ video#masked {
 }
 /* ---------------------------- Hero Video ---------------------------- */
 /* ---------------------------- Navigation ---------------------------- */
+
 .backlink {
   a:link,
   a:visited {
@@ -410,6 +422,7 @@ video#masked {
   }
 }
 /* Main menu in overlay */
+
 .main-menu-open #main-menu .video,
 .main-menu-open #main-menu ul {
   visibility               : visible;
@@ -537,6 +550,7 @@ video#masked {
   }
 }
 /* Main Call to Action */
+
 nav#main-cta {
   position: fixed;
   z-index : 100;
@@ -569,6 +583,7 @@ nav#main-cta {
   }
 }
 /* Circular disc that opens to show main menu */
+
 .main-menu-open .disc {
   animation-name: explode;
 }
@@ -616,6 +631,7 @@ nav#main-cta {
   }
 }
 /* Fade back the main content when nav is opening */
+
 .main-menu-open main {
   animation-name           : implode;
   animation-duration       : 500ms;
@@ -634,6 +650,7 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Section Divider Headings ---------------------------- */
+
 .divider {
   h2 {
     font-family   : $font-family-headline;
@@ -654,6 +671,7 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Logo ---------------------------- */
+
 .logo {
   position                 : fixed;
   z-index                  : 100;
@@ -693,7 +711,6 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Text grid ---------------------------- */
-
 .text-grid {
   h2 {
     font-family   : $font-family-headline;
@@ -718,6 +735,7 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Image grid ---------------------------- */
+
 .image-grid {
   .thumbnail {
     display      : block;
@@ -765,7 +783,6 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Hero Background ---------------------------- */
-
 .hero-background {
   position           : absolute;
   top                : 0;
@@ -816,7 +833,6 @@ nav#main-cta {
 }
 /* ---------------------------- Helpers ---------------------------- */
 /* Arrow on Links .icon.forward */
-
 .icon {
   &.forward::after {
     transform: translateX(10px) translateY(2px);
@@ -824,7 +840,6 @@ nav#main-cta {
   }
 }
 /* ---------------------------- blockquote ---------------------------- */
-
 blockquote {
   &.sidebar {
     font-size    : $font-size-medium;
@@ -841,7 +856,6 @@ blockquote {
   }
 }
 /* ---------------------------- Footer CTA ---------------------------- */
-
 .footer-cta {
   .box {
     background-color: $color-black;
@@ -860,7 +874,6 @@ blockquote {
   }
 }
 /* ---------------------------- Footer ---------------------------- */
-
 footer {
   padding  : $spacer*10 0 $spacer*5;
   font-size: $font-size-small;

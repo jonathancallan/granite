@@ -22,7 +22,7 @@ $ogUrl = "https://www.granite.ie/cloud-email";
                 <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>Cloud Email</h1>
-              <p>Migrate your email to the cloud.</p>
+              <p>We ensure your cloud migration is meticulous, guarantees a smooth and stress-free move of your email to the cloud.</p>
 
             </div>
           </div>
@@ -32,15 +32,9 @@ $ogUrl = "https://www.granite.ie/cloud-email";
         <div class="container-fluid">
           <div class="row">
             <div class="offset-sm-3 col-sm-7 col-xl-6">
-
               <h2>Email migration made easy</h2>
-
-              <p>We ensure your cloud migration is meticulous, guarantees a smooth and stress-free move of your email to the cloud.</p>
-
               <p>Our first step of the migration process, is to fully understand the entire workings of your current email system. This most important step in migrating your email to the cloud.</p>
-
               <p>Then we move you to Google Email in the Cloud, offering:</p>
-
               <ul>
               	<li>Robust infrastructure powered by Google</li>
               	<li>An easy to use interface. </li>
@@ -49,15 +43,11 @@ $ogUrl = "https://www.granite.ie/cloud-email";
               	<li>Compatible with your iPhone, Android or Blackberry phone/tablet</li>
               	<li>Available anywhere web browser, desktop, phone</li>
               </ul>
-
               <p>Granite are approved resellers for Google Apps for Business.</p>
-
-
             </div>
           </div>
         </div>
       </section>
-      <?php require './inc/development-services.php'; ?>
     </main>
     <div class="footer-cta bg-white">
       <div class="box">

@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/search-marketing-audit";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./digital-marketing.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>Search Marketing Audit</h1>
 

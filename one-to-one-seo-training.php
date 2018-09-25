@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/one-to-one-seo-training";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./seo-workshops.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>One to One SEO Training</h1>
               <p>Granite Digital are one of Ireland&rsquo;s leading digital marketing agencies, with a proven record for delivering results and new business for our clients through search engine marketing.</p>

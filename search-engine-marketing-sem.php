@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/search-engine-marketing-sem";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./digital-marketing.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>Search Marketing Audit</h1>
               <p>Granite Consulting are one of Ireland's leading digital marketing agencies, with a proven record for delivering results and new business for our clients through search engine marketing.</p>

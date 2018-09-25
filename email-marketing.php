@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/email-marketing";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./digital-marketing.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>Email Marketing</h1>
               <p>44% of consumers made at least one purchase last year based on a promotional email they received.</p>

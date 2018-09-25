@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/pay-per-click-management-ppc";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./digital-marketing.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>Pay Per Click (PPC) Management</h1>
               <p>Pay Per Click (PPC) is an online advertising model where advertisers pay the publisher on a &quot;cost per click-through&quot; basis.</p>
