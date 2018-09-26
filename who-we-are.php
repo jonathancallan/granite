@@ -30,38 +30,38 @@
         <div class="row">
           <div class="col-6 offset-sm-2 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href=""><img src="img/animal-animal-photography-cat-57416.jpg" alt=""></a>
+              <a href="./conorbuckley.php"><img src="img/animal-animal-photography-cat-57416.jpg" alt=""></a>
             </div>
             <h2><span class="small">CEO</span>Conor Buckley</h2>
             <p>
-              <a href="" class="icon forward">Learn more</a>
+              <a href="./conorbuckley.php" class="icon forward">Learn more</a>
             </p>
           </div>
           <div class="col-6 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href=""><img src="img/adorable-animal-cat-9413.jpg" alt=""></a>
+              <a href="./seamuswhite.php"><img src="img/adorable-animal-cat-9413.jpg" alt=""></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Seamus White</h2>
             <p>
-              <a href="" class="icon forward">Learn more</a>
+              <a href="./seamuswhite.php" class="icon forward">Learn more</a>
             </p>
           </div>
           <div class="col-6 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href=""><img src="img/animal-cat-cute-45201.jpg" alt=""></a>
+              <a href="./robcarpenter.php"><img src="img/animal-cat-cute-45201.jpg" alt=""></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Rob Carpenter</h2>
             <p>
-              <a href="" class="icon forward">Learn more</a>
+              <a href="./robcarpenter.php" class="icon forward">Learn more</a>
             </p>
           </div>
           <div class="col-6 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href=""><img src="img/animal-cat-cute-126407.jpg" alt=""></a>
+              <a href="./geroshea.php"><img src="img/animal-cat-cute-126407.jpg" alt=""></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Ger O'Shea</h2>
             <p>
-              <a href="" class="icon forward">Learn more</a>
+              <a href="./geroshea.php" class="icon forward">Learn more</a>
             </p>
           </div>
         </div>

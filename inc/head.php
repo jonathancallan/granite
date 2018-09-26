@@ -15,6 +15,7 @@
   <meta property="og:title" content="<?php if($metaTitle != " ") echo $metaTitle ?>" />
   <meta property="og:url" content="<?php if($ogUrl != " ") echo $ogUrl ?>" />
   <meta property="og:description" content="<?php if($metaDescription != " ") echo $metaDescription ?>" />
+  <meta property=”og:image” content=””/>
 
   <meta name="google-site-verification" content="67ThAOxAAuZWts0FXzMq2qz1V1zTOZpmmXgF1sTcW2Q" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Oswald:700" rel="stylesheet">

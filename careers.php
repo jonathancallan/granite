@@ -50,28 +50,28 @@ $ogUrl = "https://www.granite.ie/";
                 <p><a href="./seo-manager.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
-                <h2><a href="">Accounts Assistant</a></h2>
+                <h2><a href="./accounts-assistant.php">Accounts Assistant</a></h2>
                 <p>The successful candidate will join a dynamic team within Ireland's fastest growing digital agency. The individual must be a highly motivated self-starter with a desire to grow his/her own skills while providing a significant contribution
                   to the team itself. A great can do attitude is a must.</p>
-                <p><a href="" class="icon forward">Find out more</a></p>
+                <p><a href="./accounts-assistant.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
-                <h2><a href="">.NET Developer</a></h2>
+                <h2><a href="./dotnet-web-developer.php">.NET Developer</a></h2>
                 <p>The successful candidate will be a software development engineer within the rapidly growing technical division of Ireland's leading web development company. The individual must be a highly motivated self-starter with a desire to grow his/her
                   own skills while providing a significant contribution to the team itself.</p>
-                <p><a href="" class="icon forward">Find out more</a></p>
+                <p><a href="./dotnet-web-developer.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
-                <h2><a href="">Senior Digital Project Manager</a></h2>
+                <h2><a href="./senior-digital-project-manager.php">Senior Digital Project Manager</a></h2>
                 <p>Responsible for the day-to-day management of various digital projects. We expect you to be a tech-savvy with an in-depth understanding of digital technologies. You should be very organised with good attention to detail and have excellent
                   time management skills. As a Digital Project Manager, you should also have good communication skills to collaborate effectively with internal teams and customers alike.</p>
-                <p><a href="" class="icon forward">Find out more</a></p>
+                <p><a href="./senior-digital-project-manager.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
-                <h2><a href="">UX & UI Designer</a></h2>
+                <h2><a href="./ui-ux-designer.php">UX & UI Designer</a></h2>
                 <p>You will help define and drive the future of Granite Digital design. You will identify and contribute to product strategy, envision complex UX ecosystems and help inspire the internal teams to push the boundaries of what’s possible. You
                   possess a clear vision of the future of UX and have the courage to pursue forward-thinking design.</p>
-                <p><a href="" class="icon forward">Find out more</a></p>
+                <p><a href="./ui-ux-designer.php" class="icon forward">Find out more</a></p>
               </div>
             </div>
           </div>

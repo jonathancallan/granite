@@ -23,7 +23,7 @@
         <a href="./index.php" class="home">Home</a>
         <a href="./work.php" class="work">Work</a>
         <a href="./services.php" class="services">Services</a>
-        <a href="./about.php" class="about">About</a>
+        <a href="./who-we-are.php" class="about">About</a>
         <a href="./careers.php" class="careers">Careers</a>
       </li>
     </ul>
