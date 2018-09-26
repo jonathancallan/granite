@@ -7,7 +7,7 @@
   <nav id="main-cta">
     <ul>
       <li><a href="#main-menu" id="trigger-menu">Menu</a></li>
-      <li><a href="" class="cta">Make an Enquiry</a></li>
+      <li><a href="./request-quote.php" class="cta">Make an Enquiry</a></li>
     </ul>
   </nav>
   <nav id="main-menu">
@@ -21,8 +21,8 @@
     <ul>
       <li>
         <a href="./index.php" class="home">Home</a>
-        <a href="./work.php" class="work">Work</a>
-        <a href="./services.php" class="services">Services</a>
+        <a href="./portfolio.php" class="work">Work</a>
+        <a href="./what-we-do.php" class="services">Services</a>
         <a href="./who-we-are.php" class="about">About</a>
         <a href="./careers.php" class="careers">Careers</a>
       </li>

@@ -1,3 +1,9 @@
+<?php
+$metaTitle = "About Granite Digital Digital Marketing Agency | Experts in Design and Website Development";
+$metaDescription = "Learn about the digital marketing and website development team at Granite Digital. Experts in SEO and website design.";
+$metaKeywords = "About Granite Digital, Digital Marketing, Website Development";
+$ogUrl = "https://www.granite.ie/what-we-do";
+?>
 <?php require 'inc/head.php'; ?>
 
 <body class="work landing">

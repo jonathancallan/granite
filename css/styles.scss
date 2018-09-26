@@ -63,11 +63,11 @@ img {
   background-size : contain;
 }
 /* ---------------------------- Apply Page Colours ---------------------------- */
+
 .bg-white {
   background-color: $color-white;
 }
 /* Work */
-
 .work {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -80,7 +80,6 @@ img {
   }
 }
 /* Services */
-
 .services {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -93,7 +92,6 @@ img {
   }
 }
 /* About */
-
 .about {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -106,7 +104,6 @@ img {
   }
 }
 /* Careers */
-
 .careers {
   #angle-bar polygon.primary,
   .content h2::before {
@@ -119,7 +116,6 @@ img {
   }
 }
 /* ---------------------------- Type General ---------------------------- */
-
 body {
   font-family: $font-family-body;
   font-size  : $font-size-base;
@@ -134,8 +130,17 @@ li {
 p {
   line-height: 2;
 }
-/* ---------------------------- Hero ---------------------------- */
 
+table {
+  border-collapse: collapse;
+
+  td,
+  th {
+    border : 1px solid #ccc;
+    padding: 3px 5px;
+  }
+}
+/* ---------------------------- Hero ---------------------------- */
 .hero {
   margin-top   : 30vh;
   margin-bottom: 7vw;
@@ -156,10 +161,11 @@ p {
   }
 }
 /*  Hero Landing Pages */
+
 .landing {
   .hero {
     h1 {
-      font-size: $font-size-supersize;
+      font-size: $font-size-xxlarge;
 
       +p {
         font-size  : $font-size-base;
@@ -187,13 +193,14 @@ p {
   }
 }
 /*  Hero Standard Pages */
+
 .standard {
   .hero {
     margin-top   : 30vh;
     margin-bottom: 7vw;
 
     h1 {
-      font-size: $font-size-supersize;
+      font-size: $font-size-xxlarge;
       position : relative;
 
       +p {
@@ -300,7 +307,6 @@ video#masked {
 }
 /* ---------------------------- Hero Inside ---------------------------- */
 /* ---------------------------- Section Content Standard ---------------------------- */
-
 .content {
   margin-top   : $spacer * 5;
   margin-bottom: $spacer * 5;
@@ -344,6 +350,13 @@ video#masked {
   table+h2,
   ul+h2 {
     margin-top: $spacer*10;
+  }
+
+  ol+h3,
+  p+h3,
+  table+h3,
+  ul+h3 {
+    margin-top: $spacer*5;
   }
 
   h3 {
@@ -402,7 +415,6 @@ video#masked {
 }
 /* ---------------------------- Hero Video ---------------------------- */
 /* ---------------------------- Navigation ---------------------------- */
-
 .backlink {
   a:link,
   a:visited {
@@ -422,7 +434,6 @@ video#masked {
   }
 }
 /* Main menu in overlay */
-
 .main-menu-open #main-menu .video,
 .main-menu-open #main-menu ul {
   visibility               : visible;
@@ -550,7 +561,6 @@ video#masked {
   }
 }
 /* Main Call to Action */
-
 nav#main-cta {
   position: fixed;
   z-index : 100;
@@ -583,7 +593,6 @@ nav#main-cta {
   }
 }
 /* Circular disc that opens to show main menu */
-
 .main-menu-open .disc {
   animation-name: explode;
 }
@@ -631,7 +640,6 @@ nav#main-cta {
   }
 }
 /* Fade back the main content when nav is opening */
-
 .main-menu-open main {
   animation-name           : implode;
   animation-duration       : 500ms;
@@ -650,7 +658,6 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Section Divider Headings ---------------------------- */
-
 .divider {
   h2 {
     font-family   : $font-family-headline;
@@ -671,7 +678,6 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Logo ---------------------------- */
-
 .logo {
   position                 : fixed;
   z-index                  : 100;
@@ -711,6 +717,7 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Text grid ---------------------------- */
+
 .text-grid {
   h2 {
     font-family   : $font-family-headline;
@@ -735,7 +742,6 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Image grid ---------------------------- */
-
 .image-grid {
   .thumbnail {
     display      : block;
@@ -783,6 +789,7 @@ nav#main-cta {
   }
 }
 /* ---------------------------- Hero Background ---------------------------- */
+
 .hero-background {
   position           : absolute;
   top                : 0;
@@ -833,6 +840,7 @@ nav#main-cta {
 }
 /* ---------------------------- Helpers ---------------------------- */
 /* Arrow on Links .icon.forward */
+
 .icon {
   &.forward::after {
     transform: translateX(10px) translateY(2px);
@@ -840,8 +848,38 @@ nav#main-cta {
   }
 }
 /* ---------------------------- blockquote ---------------------------- */
+
 blockquote {
+  border    : 5px solid #ccc;
+  padding   : 20px;
+  position  : relative;
+  margin-top: 70px;
+
+  ::before {
+    display          : block;
+    position         : absolute;
+    top              : -44px;
+    left             : 0;
+    width            : 111px;
+    height           : 56px;
+    content          : "";
+    background-image : url("../img/quotemark.svg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+  }
+
+  .source {
+    margin        : 0;
+    font-family   : $font-family-headline;
+    text-transform: uppercase;
+    font-size     : $font-size-base;
+    letter-spacing: 0.5px;
+  }
+
   &.sidebar {
+    border       : 0;
+    padding      : 0;
+    margin       : 0;
     font-size    : $font-size-medium;
     font-weight  : 300;
     margin-bottom: $spacer*10;
@@ -849,13 +887,26 @@ blockquote {
 }
 @media (min-width:768px) {
   blockquote {
+    padding   : 35px 15px 15px;
+    margin-top: 100px;
+
+    ::before {
+      top   : -57px;
+      left  : 15px;
+      width : 138px;
+      height: 71px;
+    }
+
     &.sidebar {
+      padding   : 0;
+      margin    : 0;
       font-size : $font-size-medium;
       text-align: right;
     }
   }
 }
 /* ---------------------------- Footer CTA ---------------------------- */
+
 .footer-cta {
   .box {
     background-color: $color-black;
@@ -874,6 +925,7 @@ blockquote {
   }
 }
 /* ---------------------------- Footer ---------------------------- */
+
 footer {
   padding  : $spacer*10 0 $spacer*5;
   font-size: $font-size-small;

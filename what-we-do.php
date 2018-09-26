@@ -1,8 +1,8 @@
 <?php
-$metaTitle = "Digital Agency Cork & Dublin | Digital Marketing, Web Design, Development - Online Marketing Consultants";
-$metaDescription = "Granite Digital is a Cork & Dublin based digital agency with expertise in Digital Marketing providing clients with Website Development, Web Design, SEO, PPC, email marketing and Social Media as well as online software & application development.";
-$metaKeywords = "Granite Digital, Digital Crew";
-$ogUrl = "https://www.granite.ie";
+$metaTitle = "About Granite Digital Digital Marketing Agency | Experts in Design and Website Development";
+$metaDescription = "Learn about the digital marketing and website development team at Granite Digital. Experts in SEO and website design.";
+$metaKeywords = "About Granite Digital, Digital Marketing, Website Development";
+$ogUrl = "https://www.granite.ie/what-we-do";
 ?>
 <?php require 'inc/head.php'; ?>
 

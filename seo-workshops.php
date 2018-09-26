@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/seo-workshops";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./what-we-do.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>SEO Workshops Cork and Dublin</h1>
               <p>Granite Digital are one of Ireland&rsquo;s leading digital marketing agencies, with a proven record for delivering results and new business for our clients through search engine marketing.</p>
@@ -71,7 +71,7 @@ $ogUrl = "https://www.granite.ie/seo-workshops";
           </div>
         </div>
       </section>
-      <?php require './inc/training-services.php'; ?>
+      <?php require './inc/training-what-we-do.php'; ?>
     </main>
     <div class="footer-cta bg-white">
       <div class="box">

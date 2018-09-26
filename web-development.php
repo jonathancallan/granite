@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/web-development";
           <div class="row">
             <div class="col offset-sm-3">
               <nav class="backlink">
-                <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+                <a href="./what-we-do.php"><img src="./img/arrow.svg" alt="Services"></a>
               </nav>
               <h1>Web Development</h1>
               <p>At Granite Digital we are passionate about development of cutting edge websites and online software for businesses of all sizes.</p>

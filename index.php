@@ -10,8 +10,8 @@ $ogUrl = "https://www.granite.ie/";
     <h1>Site</h1>
     <ul>
       <li><a href="./index.html">Home</a></li>
-      <li><a href="./work.php">Work</a></li>
-      <li><a href="./services.php">Services</a>
+      <li><a href="./portfolio.php">Work</a></li>
+      <li><a href="./what-we-do.php">Services</a>
         <ul>
           <li><a href="./digital-marketing.php">Digital Marketing</a>
             <ul>

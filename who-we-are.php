@@ -1,3 +1,9 @@
+<?php
+$metaTitle = "The Granite Digital Team - Web Consultants";
+$metaDescription = "Granite Digital are one of Ireland’s leading Digital Marketing companies, with a proven record for delivering results and new business for our clients through search engine marketing and search engine friendly website design.";
+$metaKeywords = "Granite Digital";
+$ogUrl = "https://www.granite.ie/who-we-are";
+?>
 <?php require 'inc/head.php'; ?>
 
 <body class="about landing">

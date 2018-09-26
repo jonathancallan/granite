@@ -19,7 +19,7 @@ $ogUrl = "https://www.granite.ie/digital-marketing";
         <div class="row">
           <div class="col offset-sm-3">
             <nav class="backlink">
-              <a href="./services.php"><img src="./img/arrow.svg" alt="Services"></a>
+              <a href="./what-we-do.php"><img src="./img/arrow.svg" alt="Services"></a>
             </nav>
             <h1>Digital Marketing</h1>
             <p>As one of Ireland's leading Digital Marketing Agencies, Granite plan, execute and measure your digital strategy to help create a successful online presence for your business or organisation.</p>

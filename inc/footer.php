@@ -3,19 +3,21 @@
     <div class="col-6 col-sm-2 offset-sm-1">
       <h4>&copy;2018 Granite Digital</h4>
       <ul>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Cookie Policy</a></li>
-        <li><a href="">Sitemap</a></li>
+        <li><a href="./contact-us.php">Contact Us</a></li>
+        <li><a href="./privacy-policy.php">Privacy Policy</a></li>
+        <li><a href="./cookie-policy.php">Cookie Policy</a></li>
+        <li><a href="./testimonials.php">Testimonials</a></li>
+        <li><a href="./sitemap.php">Sitemap</a></li>
       </ul>
     </div>
     <div class="col-6 col-sm-2">
       <nav>
         <h4>Services</h4>
         <ul>
-          <li><a href="">Web Design</a></li>
-          <li><a href="">Web Development</a></li>
-          <li><a href="">Digital Marketing</a></li>
-          <li><a href="">SEO Consultants</a></li>
+          <li><a href="./design.php">Web Design</a></li>
+          <li><a href="./web-development.php">Web Development</a></li>
+          <li><a href="./digital-marketing.php">Digital Marketing</a></li>
+          <li><a href="./search-engine-optimisation-seo.php">SEO Consultants</a></li>
         </ul>
       </nav>
     </div>
