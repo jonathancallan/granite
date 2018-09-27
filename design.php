@@ -35,7 +35,7 @@ $ogUrl = "https://www.granite.ie/design";
               <p>Our team of experts will simplify the process for you, making it a jargon free experience and ensuring you create the best face for your business online.</p>
               <p><a href="./website-design.php">Website design</a> is about much more than creating a design that is fresh and appealing. <a href="./design.php">Any website</a> that is to become a successful sales and marketing tool needs to be intuitive,
                 easy to use as well and <a href="./responsive-design.php">responsive in design</a> to work with the explosion in mobile devices accessing your content on the go.</p>
-              <p>We also now offer <a href="./branding-logo-design-and-corporate-identity.php">Branding, logo design and corporate identity</a> as part of our range of services.</p>
+              <p>We also now offer <a href="./branding-logo-design-and-corporate-identity.php">branding, logo design and corporate identity</a> as part of our range of services.</p>
             </div>
           </div>
         </div>

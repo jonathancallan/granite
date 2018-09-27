@@ -13,7 +13,7 @@
       </div>
       <div class="col-xs-12 col-md padding-b">
         <h3><a href="./website-design.php">Website Design</a></h3>
-        <p>ur professional team approach will ensure that your online presence stands out from the crowd. We know that web design is about much more than creating a design that is fresh and appealing..</p>
+        <p>Our professional team approach will ensure that your online presence stands out from the crowd. We know that web design is about much more than creating a design that is fresh and appealing..</p>
         <p><a href="./website-design.php" class="icon forward">Find out more</a></p>
       </div>
       <div class="col-xs-12 col-md padding-b">

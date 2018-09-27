@@ -10,22 +10,4 @@
       <li><a href="./request-quote.php" class="cta">Make an Enquiry</a></li>
     </ul>
   </nav>
-  <nav id="main-menu">
-    <div class="disc"></div>
-    <div class="video">
-      <video autoplay loop>
-        <source src="video/683313736-640_adpp_is.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <ul>
-      <li>
-        <a href="./index.php" class="home">Home</a>
-        <a href="./portfolio.php" class="work">Work</a>
-        <a href="./what-we-do.php" class="services">Services</a>
-        <a href="./who-we-are.php" class="about">About</a>
-        <a href="./careers.php" class="careers">Careers</a>
-      </li>
-    </ul>
-  </nav>
 </header>

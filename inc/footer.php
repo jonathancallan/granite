@@ -77,6 +77,25 @@
     </div>
 </div>
 </footer>
+  <div class="close"><a href="">Close</a></div>
+  <nav id="main-menu">
+    <div class="disc"></div>
+    <div class="video">
+      <video autoplay loop>
+        <source src="./video/dancing-guy-YouTube480-SD-Wide-LowBitrate.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <ul>
+      <li>
+        <a href="./index.php" class="home">Home</a>
+        <a href="./portfolio.php" class="work">Work</a>
+        <a href="./what-we-do.php" class="services">Services</a>
+        <a href="./who-we-are.php" class="about">About</a>
+        <a href="./careers.php" class="careers">Careers</a>
+      </li>
+    </ul>
+  </nav>
 <script type="text/javascript" src="./plugins/jquery-3.3.1/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="./plugins/slick/slick.min.js"></script>
 <script type="text/javascript" src="./js/scripts.js"></script>

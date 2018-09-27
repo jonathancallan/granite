@@ -71,7 +71,7 @@ $ogUrl = "https://www.granite.ie/seo-workshops";
           </div>
         </div>
       </section>
-      <?php require './inc/training-what-we-do.php'; ?>
+      <?php require './inc/training-services.php'; ?>
     </main>
     <div class="footer-cta bg-white">
       <div class="box">

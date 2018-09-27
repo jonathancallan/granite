@@ -1,11 +1,13 @@
 $(document).ready(function(){
-
-  /* Display the main navigation */
+/* Display the main navigation */
   $("#trigger-menu").on("click",function(){
     $("body").addClass("main-menu-open");
-    return false;
   });
-    
+  $("#main-menu .close").on("click",function(){
+    $("body").removeClass(".main-menu-open");
+      return false;
+  });
+/* Init the slider */
 $('.home-slider').slick({
     centerMode: true,
     centerPadding: '60px',

@@ -6,13 +6,13 @@ $ogUrl = "https://www.granite.ie/";
 ?>
 <?php require 'inc/head.php' ?>
 
-<body>
+<body class="home">
     <?php require 'inc/header.php'; ?>
     <main>
         <div class="slider-wrapper">
             <div class="background">
                 <video autoplay loop>
-                    <source src="video/683313736-640_adpp_is.mp4" type="video/mp4"> Your browser does not support the video tag.
+                    <source src="./video/dancing-guy-YouTube480-SD-Wide-LowBitrate.mp4" type="video/mp4"> Your browser does not support the video tag.
                 </video>
             </div>
 

@@ -39,13 +39,13 @@ $ogUrl = "https://www.granite.ie/contact-us";
                     <div class="offset-sm-3 col-xs-12 col-sm">
                         <h4>Cork</h4>
                         <p>Granite Digital <br> First Floor,<br> City Quarter,<br> Lapps Quay, Cork</p>
-                        <p><a href="tel:+353212427890">+353 21 242 7890</a> <br>
+                        <p><a href="tel:+353212427890">+353 (0)21 242 7890</a> <br>
                             <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
                     </div>
                     <div class="col-xs-12 col-sm">
                         <h4>Dublin</h4>
                         <p>25 Temple Lane South,<br>Temple Bar,<br>Dublin 2,<br>Ireland</p>
-                        <p><a href="tel:+35318512800">00 353 1 6337979</a> <br>
+                        <p><a href="tel:+35318512800">+ 353 (0)1 6337979</a> <br>
                             <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
                     </div>
                     <div class="col-xs-12 col-sm">
