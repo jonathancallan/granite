@@ -16,26 +16,43 @@ $ogUrl = "https://www.granite.ie/request-quote";
         <div class="container-fluid">
           <div class="row">
             <div class="col offset-sm-3">
-              <nav class="backlink"> <a href="./design.php"><img src="./img/arrow.svg" alt="Services"></a> </nav>
+              <nav class="backlink"> <a href="javascript:history.go(-1)"><img src="./img/arrow.svg" alt="Services"></a> </nav>
               <h1>Request a Quote</h1>
-              <p>We'd love to work with you.</p>
+              <p>Simply give our sales team a call.</p>
             </div>
           </div>
         </div>
       </section>
       <section class="content">
         <div class="container-fluid">
-          <div class="row">
-            <div class="offset-sm-3 col-sm-7 col-xl-6">
-              <h2>Contact our Sales Team</h2>
+            <div class="row">
+                <div class="offset-sm-3 col">
+                <h2 style="margin-bottom: 0;">Offices</h2>
+                </div>
             </div>
+          <div class="row">
+              <div class="offset-sm-3 col-xs-12 col-sm">
+                        <h4>Cork</h4>
+                        <p><a href="tel:+353212427890">+353 21 242 7890</a> <br>
+                            <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
+                    </div>
+                    <div class="col-xs-12 col-sm">
+                        <h4>Dublin</h4>
+                        <p><a href="tel:+35318512800">00 353 1 6337979</a> <br>
+                            <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
+                    </div>
+                    <div class="col-xs-12 col-sm">
+                        <h4>Galway</h4>
+                        <p><a href="tel:+353091 511457 ">+ 353 (0)91 511457 </a> <br>
+                            <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
+                    </div>
           </div>
         </div>
       </section>
     <div class="footer-cta bg-white">
       <div class="box">
         <h2>Let us help you grow your business</h2>
-        <p>Contact us today <a href="">+ 353 (1) 6337979</a></p>
+        <p>Contact us today <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
       </div>
     </div>
     <footer class="bg-white">

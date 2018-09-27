@@ -43,7 +43,7 @@ $ogUrl = "https://www.granite.ie/what-we-do";
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-8 col-lg-5 padding-b">
-            <img src="img/ux-workshop.jpg" alt="UX Workshop" />
+            <img src="./img/ux-workshop-brainstorming-2.jpg" alt="UX Workshop" />
           </div>
           <div class="col-12 col-lg-6 offset-lg-1">
             <div class="row">
@@ -72,7 +72,7 @@ $ogUrl = "https://www.granite.ie/what-we-do";
   <div class="footer-cta">
     <div class="box">
       <h2>Discover what we can do for you</h2>
-      <p>Contact us today <a href="">+ 353 (1) 6337979</a></p>
+      <p>Contact us today <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
     </div>
   </div>
 <footer>

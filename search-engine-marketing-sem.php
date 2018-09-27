@@ -75,7 +75,7 @@ $ogUrl = "https://www.granite.ie/search-engine-marketing-sem";
     <div class="footer-cta bg-white">
       <div class="box">
         <h2>Learn how Search Engine Marketing and SEO can improve your business</h2>
-        <p>Contact us today <a href="">+ 353 (1) 6337979</a></p>
+        <p>Contact us today <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
       </div>
     </div>
     <footer class="bg-white">

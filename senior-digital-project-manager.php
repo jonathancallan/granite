@@ -97,7 +97,7 @@ $ogUrl = "https://www.granite.ie/senior-digital-project-manager";
     <div class="footer-cta bg-white">
       <div class="box">
         <h2>Let us help your Digital Marketing</h2>
-        <p>Contact us today <a href="">+ 353 (1) 6337979</a></p>
+        <p>Contact us today <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
       </div>
     </div>
     <footer class="bg-white">

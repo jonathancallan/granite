@@ -46,7 +46,7 @@ $ogUrl = "https://www.granite.ie/";
               <div class="col-12 padding-b">
                 <h2><a href="./seo-manager.php">SEO Manager</a></h2>
                 <p>At Granite Digital we are offering a fantastic opportunity for an experienced SEO Specialist to join our expanding team. We are looking for someone with a passion for all things SEO combined with drive, enthusiasm and a real passion for
-                  achieving results. The successful candidate will join a team of SEO experts working on developing & executing SEO strategies that significantly impact on clients’ websites performance.</p>
+                  achieving results. The successful candidate will join a team of SEO experts working on developing &amp; executing SEO strategies that significantly impact on clients’ websites performance.</p>
                 <p><a href="./seo-manager.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
@@ -68,15 +68,15 @@ $ogUrl = "https://www.granite.ie/";
                 <p><a href="./senior-digital-project-manager.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
-                <h2><a href="./ui-ux-designer.php">UX & UI Designer</a></h2>
+                <h2><a href="./ui-ux-designer.php">UX &amp; UI Designer</a></h2>
                 <p>You will help define and drive the future of Granite Digital design. You will identify and contribute to product strategy, envision complex UX ecosystems and help inspire the internal teams to push the boundaries of what’s possible. You
                   possess a clear vision of the future of UX and have the courage to pursue forward-thinking design.</p>
                 <p><a href="./ui-ux-designer.php" class="icon forward">Find out more</a></p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 offset-lg-1 col-lg-5 padding-b">
-            <img src="img/ux-workshop.jpg" alt="UX Workshop" />
+          <div class="col-12 col-md-4 offset-lg-1 col-lg-4 padding-b">
+            <img src="img/design-team-working-at-pc.jpg" alt="Design Team" />
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@ $ogUrl = "https://www.granite.ie/";
   <div class="footer-cta">
     <div class="box">
       <h2>Meet the rest of our team</h2>
-      <p>Contact us today <a href="">+ 353 (1) 6337979</a></p>
+      <p>Contact us today <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
     </div>
   </div>
   <footer>

@@ -18,7 +18,11 @@
   <meta name="google-site-verification" content="67ThAOxAAuZWts0FXzMq2qz1V1zTOZpmmXgF1sTcW2Q" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Oswald:700" rel="stylesheet">
   <link href="./plugins/bootstrap-4.1.3/css/bootstrap.css" rel="stylesheet">
-  <link href="./css/styles.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./plugins/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./plugins/slick/slick-theme.css"/>
+  <link href="./css/styles.css" rel="stylesheet">
+
+
   <!-- Favicons ICONS -->
   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">

@@ -36,7 +36,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
         <div class="row">
           <div class="col-6 offset-sm-2 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href="./conorbuckley.php"><img src="img/animal-animal-photography-cat-57416.jpg" alt=""></a>
+              <a href="./conorbuckley.php"><img src="./img/conor-buckley.jpg" alt=""></a>
             </div>
             <h2><span class="small">CEO</span>Conor Buckley</h2>
             <p>
@@ -45,7 +45,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
           </div>
           <div class="col-6 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href="./seamuswhite.php"><img src="img/adorable-animal-cat-9413.jpg" alt=""></a>
+              <a href="./seamuswhite.php"><img src="./img/seamus-white.jpg" alt=""></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Seamus White</h2>
             <p>
@@ -54,7 +54,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
           </div>
           <div class="col-6 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href="./robcarpenter.php"><img src="img/animal-cat-cute-45201.jpg" alt=""></a>
+              <a href="./robcarpenter.php"><img src="img/rob-carpenter.jpg" alt=""></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Rob Carpenter</h2>
             <p>
@@ -63,7 +63,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
           </div>
           <div class="col-6 col-sm-3 col-md-2 padding-b">
             <div class="thumbnail">
-              <a href="./geroshea.php"><img src="img/animal-cat-cute-126407.jpg" alt=""></a>
+              <a href="./geroshea.php"><img src="img/ger-oshea.jpg" alt=""></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Ger O'Shea</h2>
             <p>
@@ -79,7 +79,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
   <div class="footer-cta">
     <div class="box">
       <h2>Meet the rest of our team</h2>
-      <p>Contact us today <a href="">+ 353 (1) 6337979</a></p>
+      <p>Contact us today <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
     </div>
   </div>
   <footer>

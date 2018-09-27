@@ -247,6 +247,47 @@ table {
     }
   }
 }
+/* Hero Work Pages --- NEDS TO BE SCSSED !!! */
+.portfolio .hero-background img {
+    width: 100%;
+  }
+  .portfolio #main-cta,
+  .portfolio .logo {
+    z-index: 999999;
+  }
+  .portfolio .hero {
+    margin-top: 50px;
+  }
+  .portfolio .hero-background {
+    overflow: hidden;
+    position: static;
+    height: auto;
+  }
+  .portfolio .hero-background picture {
+    max-width: none;
+    height: auto;
+  }
+  #angle-bar-2 {
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    width: 700px;
+    fill:#fff;
+  }
+  @media (min-width:768px) {
+
+    #angle-bar-2 {
+      width: 85vw;
+    }
+    .portfolio .hero-background {
+      display: block;
+      background-image: url(./img/angle-bar-3.svg);
+      background-position: bottom left;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
 /* Hero Backgrounds with masks */
 $hero-mask-video-width: 640px;
 $hero-mask-video-height: 360px;
@@ -306,6 +347,98 @@ video#masked {
   }
 }
 /* ---------------------------- Hero Inside ---------------------------- */
+/* ---------------------------- Section Homepage Slider  ---------------------------- */
+.slick-dots {
+    bottom:25px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom:0!important;
+}
+.slider-wrapper {
+    margin-top:90px;
+    position: relative;
+    overflow:hidden;
+    .background {
+        position:absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        height:100%;
+        width:100%;
+        video {
+            width:100%!important;
+            height:100%!important;
+        }
+    }
+}
+.home-slider {
+    .item {
+        position:relative;
+        height:40vh;
+        width:90vw;   
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position: top center;
+        a {
+            display:block;
+            position:absolute;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+            width:100%;
+            height:100%;
+            text-indent:-9999px;
+        }
+        &.work {
+        background-image:url(../img/home-slider-work-mask.svg);
+        }
+        &.services {
+            background-image:url(../img/home-slider-services-mask.svg);
+        }
+        &.about {
+            background-image:url(../img/home-slider-about-mask.svg);
+        }
+        &.careers {
+            background-image:url(../img/home-slider-careers-mask.svg);
+        }
+    }
+}
+@media (min-width:768px) {
+    .slider-wrapper {
+            margin-top:0px;
+    .home-slider {
+        .item {
+            height:80vh;
+        }
+    }
+}
+}
+@media (min-width:992px) {
+    .home-slider {
+        .item {
+        &.work {
+        background-image:url(../img/home-slider-work-mask-banner.svg);
+        }
+        &.services {
+            background-image:url(../img/home-slider-services-mask-banner.svg);
+        }
+        &.about {
+            background-image:url(../img/home-slider-about-mask-banner.svg);
+        }
+        &.careers {
+            background-image:url(../img/home-slider-careers-mask-banner.svg);
+        }
+        }
+    }
+}
+@media (min-width:1200px) {
+    .home-slider {
+        .item {
+        }
+    }
+}
 /* ---------------------------- Section Content Standard ---------------------------- */
 .content {
   margin-top   : $spacer * 5;
@@ -913,6 +1046,9 @@ blockquote {
     color           : $color-white;
     padding         : $spacer * 2 $spacer * 1.5;
   }
+    a:link {
+        color:#fff;
+    }
 }
 @media (min-width:768px) {
   .footer-cta {
@@ -927,7 +1063,7 @@ blockquote {
 /* ---------------------------- Footer ---------------------------- */
 
 footer {
-  padding  : $spacer*10 0 $spacer*5;
+  padding  : $spacer*5 0 $spacer*5;
   font-size: $font-size-small;
 
   h4 {
@@ -960,13 +1096,13 @@ footer {
       a {
         display       : block;
         color         : $color-black;
-        padding-bottom: 5px;
       }
     }
   }
 }
 @media (min-width:768px) {
   footer {
+      padding  : $spacer*10 0 $spacer*5;
     h4 {
       margin-top: 0;
     }
