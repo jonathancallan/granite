@@ -9,8 +9,8 @@ $ogUrl = "https://www.granite.ie/ccpc";
   <div class="hero-background">
     <svg id="angle-bar-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1362 245"><polygon class="cls-1" points="1362 155.38 1362 0 417.38 0 416.98 2.45 1362 155.38"/><polygon class="cls-1" points="285.13 0 21.06 0 1362 217 1362 174.26 285.13 0"/></svg>
     <picture>
-      <source media="(min-width: 768px)" srcset="./img/ux-workshop-banner.jpg">
-      <img src="./img/ux-workshop-square.jpg" alt="Flowers" style="width:auto;">
+      <source media="(min-width: 768px)" srcset="./img/work-aon-ipad-desktop.jpg">
+      <img src="./img/work-aon-ipad-mobile.jpg" alt="AON" style="width:auto;">
     </picture>
   </div>
   <?php require 'inc/header.php'; ?>
@@ -24,7 +24,7 @@ $ogUrl = "https://www.granite.ie/ccpc";
               <a href="./portfolio.php"><img src="./img/arrow.svg" alt="Portfolio"></a>
             </nav>
             <h1>AON</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor sem sit amet odio mattis posuere. Etiam vel tincidunt tortor. Fusce sed tempus purus.</p>
+            <p>Aon is one of Ireland’s leading professional services firms, providing a broad range of risk, retirement and health solutions.</p>
           </div>
         </div>
       </div>
@@ -33,8 +33,8 @@ $ogUrl = "https://www.granite.ie/ccpc";
   <div class="container-fluid">
     <div class="row">
       <div class="offset-sm-3 col-sm-7 col-xl-6">
-        <h2>Project Overview</h2>
-        <p>Suspendisse in facilisis purus. Vestibulum porttitor velit a magna condimentum aliquet. Ut varius, ligula id gravida auctor, risus ipsum lacinia nunc, a convallis lectus leo non odio. Nullam iaculis, augue varius volutpat accumsan, nibh magna maximus nibh, id bibendum leo ligula at magna. Suspendisse potenti. Mauris a risus lectus. Aliquam sed risus odio. Aliquam sodales risus ligula, sed volutpat justo dignissim sit amet. Fusce sagittis sit amet eros id sagittis. Nam finibus ante at orci sagittis finibus. Pellentesque efficitur bibendum metus eu condimentum. Donec justo lorem, varius lacinia tincidunt a, ultrices sit amet nisl. Ut gravida lorem id vestibulum porttitor. Donec vitae tellus eget tortor ultrices interdum. Integer at sagittis arcu. Proin a nisl sed tellus convallis iaculis.</p>
+        <h2>The Brief</h2>
+        <p> With over 50,000 staff in 120 countries they use proprietary data and analytics to deliver insights that reduce volatility and improve performance. Aon asked us to develop a bespoke web portal that would bring their offering to life on the web. We rose to the challenge by creating a new backend system that was a quantum leap forward for both customers and staff in terms of clarity, stability and usability. Now customers and their Aon counterparts can view and review data dynamically in a far more relevant and engaging way, saving precious time and resources. The system has launched successfully, making real improvements in customer retention, interaction and furthering Aon’s ambitious business goals.</p>
       </div>
     </div>
   </div>

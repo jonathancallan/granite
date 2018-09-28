@@ -16,7 +16,7 @@ $ogUrl = "https://www.granite.ie/what-we-do";
         <div class="row">
           <div class="col offset-sm-2">
             <h1>Services</h1>
-            <p>Vivamus molestie lacinia lectus, ac porttitor massa mollis bibendum. Etiam suscipit nisl id facilisis pretium. </p>
+            <p>We're a full service digital agency with in-house capability to deliver UX, Design, Development, Marketing, Hosting and Support services. </p>
           </div>
         </div>
       </div>

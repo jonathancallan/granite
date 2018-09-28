@@ -9,8 +9,8 @@ $ogUrl = "https://www.granite.ie/ucc";
   <div class="hero-background">
     <svg id="angle-bar-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1362 245"><polygon class="cls-1" points="1362 155.38 1362 0 417.38 0 416.98 2.45 1362 155.38"/><polygon class="cls-1" points="285.13 0 21.06 0 1362 217 1362 174.26 285.13 0"/></svg>
     <picture>
-      <source media="(min-width: 768px)" srcset="./img/ux-workshop-banner.jpg">
-      <img src="./img/ux-workshop-square.jpg" alt="" style="width:auto;">
+      <source media="(min-width: 768px)" srcset="./img/work-ucc-medical-desktop.jpg">
+      <img src="./img/work-ucc-medical-mobile.jpg" alt="UCC" style="width:auto;">
     </picture>
   </div>
   <?php require 'inc/header.php'; ?>
@@ -24,7 +24,7 @@ $ogUrl = "https://www.granite.ie/ucc";
               <a href="./portfolio.php"><img src="./img/arrow.svg" alt="Portfolio"></a>
             </nav>
             <h1>UCC</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor sem sit amet odio mattis posuere. Etiam vel tincidunt tortor. Fusce sed tempus purus.</p>
+            <p>University College Cork approached us with the task of researching, planning and executing a programme to deliver a World Class website for the university.</p>
           </div>
         </div>
       </div>
@@ -34,7 +34,18 @@ $ogUrl = "https://www.granite.ie/ucc";
     <div class="row">
       <div class="offset-sm-3 col-sm-7 col-xl-6">
         <h2>Project Overview</h2>
-        <p>Suspendisse in facilisis purus. Vestibulum porttitor velit a magna condimentum aliquet. Ut varius, ligula id gravida auctor, risus ipsum lacinia nunc, a convallis lectus leo non odio. Nullam iaculis, augue varius volutpat accumsan, nibh magna maximus nibh, id bibendum leo ligula at magna. Suspendisse potenti. Mauris a risus lectus. Aliquam sed risus odio. Aliquam sodales risus ligula, sed volutpat justo dignissim sit amet. Fusce sagittis sit amet eros id sagittis. Nam finibus ante at orci sagittis finibus. Pellentesque efficitur bibendum metus eu condimentum. Donec justo lorem, varius lacinia tincidunt a, ultrices sit amet nisl. Ut gravida lorem id vestibulum porttitor. Donec vitae tellus eget tortor ultrices interdum. Integer at sagittis arcu. Proin a nisl sed tellus convallis iaculis.</p>
+        <p>UCC is an award-winning institution with a history of independent thinking stretching back over 170 years, proudly ranked in the top 2% of universities in the world.</p>
+            <p>Our first task was to conduct quantitative analysis of key sections of the website, holding interviews with key internal stakeholders / units to understand their particular requirements, type of content and importantly, who were their target audience/s. We also undertook a comprehensive review of competitor/peer websites coupled with a range of user focus groups and surveys with the target audiences to define the needs of potential students, current students, researchers and industry users. The strategy for the new website was built on 3 key pillars: ease of use, search and content. Secondary pillars were ensuring we developed a world-class design, simplified the ease of administration and moderation via the CMS, created a real showcase for UCC and featured components that were pecific to the distinct sections / stakeholders.</p>
+          <ul>
+          <li>Intelligent and dynamic search function.</li>
+          <li>Concise &amp; Clear Navigation.</li>
+          <li>Intuitive Information Architecture.</li>
+          <li>User centric, world class design.</li>
+          <li>Consistent &amp; World Class UX/UI.</li>
+          <li>Rich Media Integration.</li>
+          <li>Content governance policy &amp; Content consistency.</li>
+          <li>Flexible templates.</li>
+          </ul>
           <p><a href="https://www.ucc.ie/" class="icon forward" target="_blank">Visit the site</a></p>
       </div>
     </div>

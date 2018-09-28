@@ -16,7 +16,7 @@ $ogUrl = "https://www.granite.ie/what-we-do";
         <div class="row">
           <div class="col offset-sm-2">
             <h1>Our work</h1>
-            <p>Curabitur euismod aliquam iaculis. Aliquam tempus, nulla ut mattis bibendum, justo quam consectetur leo, eu imperdiet lorem justo porta nibh. Donec volutpat lectus in dapibus sodales. </p>
+            <p>We're proud to work with some of the most prestigious and innovative companies in Europe. Our work reflects the passion we have for quality, commercially focused design.</p>
           </div>
         </div>
       </div>
@@ -30,37 +30,37 @@ $ogUrl = "https://www.granite.ie/what-we-do";
             <a href="./davy.php"><div class="thumbnail">
               <img src="img/logo-davy.png" alt="Davy">
             </div>
-            <h2><span class="small">Davy.ie</span>Launch of web application thing that is great. Launch of web application thing that is great. Launch of web application thing.</h2></a>
+            <h2><span class="small">Davy.ie</span>Transformation from a B2B focus to an insights driven B2C lead generation engine.</h2></a>
           </div>
           <div class="col-6 col-sm-5 col-md-3 padding-b">
             <a href="./ucc.php"><div class="thumbnail">
               <img src="img/logo-ucc.png" alt="UCC">
             </div>
-            <h2><span class="small">UCC</span>Launch of web application thing that is great.</h2></a>
+            <h2><span class="small">UCC</span>Execution of a World Class website for University College Cork.</h2></a>
           </div>
           <div class="col-6 col-sm-5 col-md-3 padding-b">
             <a href="./smurfit-business-school.php"><div class="thumbnail">
               <img src="img/logo-smurfitt.png" alt="Smurfit Business School">
             </div>
-            <h2><span class="small">Smurfit Business School</span>Launch of web application thing that is great. Launch of web application thing that is great.</h2></a>
+            <h2><span class="small">Smurfit Business School</span>Re-design, develop and maintain the new UCD Smurfit School and UCD Quinn School websites.</h2></a>
           </div>
           <div class="col-6 offset-sm-2 col-sm-5 col-md-3 padding-b">
             <a href="./ccpc.php"><div class="thumbnail">
               <img src="img/logo-ccpc.png" alt="CCPC">
             </div>
-            <h2><span class="small">CCPC</span>Bespoke UX strategy and web site design.</h2></a>
+            <h2><span class="small">CCPC</span>Competition and Consumer Protection Commission.</h2></a>
           </div>
           <div class="col-6 col-sm-5 col-md-3 padding-b">
             <a href="./maldron.php"><div class="thumbnail">
               <img src="img/logo-maldron.png" alt="Maldron">
             </div>
-            <h2><span class="small">Maldron</span>Launch of web application thing that is great. Launch of web application thing that is great. Launch of web application.</h2></a>
+            <h2><span class="small">Maldron</span>Research UX driven project to understand visitor behaviour and increase conversion.</h2></a>
           </div>
           <div class="col-6 col-sm-5 col-md-3 padding-b">
             <a href="./aon.php"><div class="thumbnail">
               <img src="img/logo-aon.png" alt="AON">
             </div>
-            <h2><span class="small">AON</span>Launch of web application thing that is great. Some more lines of text.</h2></a>
+            <h2><span class="small">AON</span>Bespoke backend web portal for Aon's customers.</h2></a>
           </div>
         </div>
       </div>

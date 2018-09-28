@@ -185,7 +185,7 @@ table {
       font-size: $font-size-xxlarge;
 
       +p {
-        font-size  : $font-size-base + 4;
+        font-size  : $font-size-base + 6;
         line-height: 1.5;
       }
     }
@@ -221,7 +221,7 @@ table {
       position : relative;
 
       +p {
-        font-size  : $font-size-base;
+        font-size  : $font-size-base + 6;
         line-height: 1.5;
       }
     }
@@ -996,7 +996,9 @@ nav#main-cta {
   &.type-e {
     background-image: url("../img/bg-purple-stairs.png");
   }
-
+  &.type-f {
+    background-image: url("../img/bg-orange-woman.png");
+  }
   svg#angle-bar {
     position: absolute;
     top     : 0;

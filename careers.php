@@ -7,10 +7,10 @@ $ogUrl = "https://www.granite.ie/";
 <?php require 'inc/head.php'; ?>
 
 <body class="careers landing">
-  <div class="hero-background mask">
+    <div class="hero-background mask">
     <div id="mask"></div>
     <video id="masked" autoplay loop>
-      <source src="video/467153078-640_adpp_is_4.mp4" type="video/mp4">
+      <source src="./video/office-scene-slowmotion-YouTube480-SD-Wide-LowBitrate.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
