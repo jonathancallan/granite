@@ -3,29 +3,29 @@
         <div class="col-6 col-sm-2 offset-sm-1">
             <h4>Company</h4>
             <ul>
-                <li><a href="./contact-us.php">Contact Us</a>
+                <li><a href="./contact-us">Contact Us</a>
                 </li>
-                <li><a href="./privacy-policy.php">Privacy Policy</a>
+                <li><a href="./privacy-policy">Privacy Policy</a>
                 </li>
-                <li><a href="./cookie-policy.php">Cookie Policy</a>
+                <li><a href="./cookie-policy">Cookie Policy</a>
                 </li>
-                <li><a href="./testimonials.php">Testimonials</a>
+                <li><a href="./testimonials">Testimonials</a>
                 </li>
-                <li><a href="./sitemap.php">Sitemap</a>
-                </li>
+         <!--       <li><a href="./sitemap">Sitemap</a>
+                </li> -->
             </ul>
         </div>
         <div class="col-6 col-sm-2">
             <nav>
                 <h4>Services</h4>
                 <ul>
-                    <li><a href="./design.php">Web Design</a>
+                    <li><a href="./design">Web Design</a>
                     </li>
-                    <li><a href="./web-development.php">Web Development</a>
+                    <li><a href="./web-development">Web Development</a>
                     </li>
-                    <li><a href="./digital-marketing.php">Digital Marketing</a>
+                    <li><a href="./digital-marketing">Digital Marketing</a>
                     </li>
-                    <li><a href="./search-engine-optimisation-seo.php">SEO Consultants</a>
+                    <li><a href="./search-engine-optimisation-seo">SEO Consultants</a>
                     </li>
                 </ul>
             </nav>
@@ -88,11 +88,11 @@
     </div>
     <ul>
       <li>
-        <a href="./index.php" class="home">Home</a>
-        <a href="./portfolio.php" class="work">Work</a>
-        <a href="./what-we-do.php" class="services">Services</a>
-        <a href="./who-we-are.php" class="about">About</a>
-        <a href="./careers.php" class="careers">Careers</a>
+        <a href="./" class="home">Home</a>
+        <a href="./portfolio" class="work">Work</a>
+        <a href="./what-we-do" class="services">Services</a>
+        <a href="./who-we-are" class="about">About</a>
+        <a href="./careers" class="careers">Careers</a>
       </li>
     </ul>
   </nav>
