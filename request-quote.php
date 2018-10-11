@@ -18,7 +18,8 @@ $ogUrl = "https://www.granite.ie/request-quote";
             <div class="col offset-sm-3">
               <nav class="backlink"> <a href="javascript:history.go(-1)"><img src="./img/arrow.svg" alt="Services"></a> </nav>
               <h1>Request a Quote</h1>
-              <p>Simply give our sales team a call.</p>
+              <p>Simply complete the form and we'll contact you straight away.</p>
+              <?php require 'inc/contact-form.php'; ?>
             </div>
           </div>
         </div>
