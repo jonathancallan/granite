@@ -2,6 +2,7 @@
 $metaTitle = "Conor Buckley | Granite Digital Cork & Dublin";
 $metaDescription = "Granite Digital are one of Ireland’s leading Digital Marketing companies, with a proven record for delivering results and new business for our clients through search engine marketing and search engine friendly website design.";
 $ogUrl = "https://www.granite.ie/who-we-are";
+$ogImage = "https://www.granite.ie/img/conor-buckley.jpg";
 ?>
   <?php require 'inc/head.php'; ?>
 
@@ -15,7 +16,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
         <div class="container-fluid">
           <div class="row">
             <div class="col offset-sm-3">
-              <nav class="backlink"> <a href="./who-we-are.php"><img src="./img/arrow.svg" alt="Services"></a> </nav>
+              <nav class="backlink"> <a href="./who-we-are"><img src="./img/arrow.svg" alt="Services"></a> </nav>
               <h1>Conor Buckley</h1>
               <p>Conor has broad experience in Marketing, Sales, Finance, Strategy, Technology, Operations and Management. Particularly in the financial, technology and tourism industries. Formally trained in Marketing, IT, Finance and Project Management.</p>
             </div>

@@ -4,6 +4,7 @@ $metaTitle = "Alf Smiddy - Granite Digital Chairman - Cork & Dublin";
 $metaDescription = "Granite Digital are one of Ireland’s leading Digital Marketing companies, with a proven record for delivering results and new business for our clients through search engine marketing and search engine friendly website design.";
 $metaKeywords = "Granite Digital";
 $ogUrl = "https://old.granite.ie/who-we-are";
+$ogImage = "https://www.granite.ie/img/alf-smiddy.jpg";
 ?>
 <?php include $basePath . "/inc/head.php"; ?>
 

@@ -3,6 +3,7 @@ $metaTitle = "Rob Carpenter | Digital Transformation Strategist";
 $metaDescription = "Rob is a founder and partner at Granite Digital. He leads the web development team at Granite Digital and has over 10 years experience in software development, SEO & managerial roles. He specialises in delivering large-scale information technology projects into the public and private sectors.";
 $metaKeywords = "Granite Digital";
 $ogUrl = "https://www.granite.ie/who-we-are";
+$ogImage = "https://www.granite.ie/img/rob-carpenter.jpg";
 ?>
   <?php require 'inc/head.php'; ?>
 
@@ -16,7 +17,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
         <div class="container-fluid">
           <div class="row">
             <div class="col offset-sm-3">
-              <nav class="backlink"> <a href="./who-we-are.php"><img src="./img/arrow.svg" alt="Services"></a> </nav>
+              <nav class="backlink"> <a href="./who-we-are"><img src="./img/arrow.svg" alt="Services"></a> </nav>
               <h1>Rob Carpenter</h1>
               <p>Rob is a founder and partner at Granite Digital. He leads the web development team at Granite Digital and has over 10 years experience in software development, SEO & managerial roles.</p>
             </div>

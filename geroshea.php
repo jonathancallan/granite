@@ -2,6 +2,7 @@
 $metaTitle = "Ger O'Shea - DIRECTOR AND CO-FOUNDER";
 $metaDescription = "Granite Digital are one of Ireland’s leading Digital Marketing companies, with a proven record for delivering results and new business for our clients through search engine marketing and search engine friendly website design";
 $ogUrl = "https://www.granite.ie/who-we-are";
+$ogImage = "https://www.granite.ie/img/ger-oshea.jpg";
 ?>
   <?php require 'inc/head.php'; ?>
 
@@ -15,7 +16,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
         <div class="container-fluid">
           <div class="row">
             <div class="col offset-sm-3">
-              <nav class="backlink"> <a href="./who-we-are.php"><img src="./img/arrow.svg" alt="Services"></a> </nav>
+              <nav class="backlink"> <a href="./who-we-are"><img src="./img/arrow.svg" alt="Services"></a> </nav>
               <h1>Ger O'Shea</h1>
               <p>Ger has worked for the past 15 years in the IT/Financial and Web Technologies sector, he has a deep background and extensive knowledge of systems and networking technologies, with qualifications in Computing, Bookkeeping &amp; Accountancy,
                 Data communications &amp; Networking, digital electronics and PC repair &amp; Maintenance.</p>

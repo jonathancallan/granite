@@ -3,6 +3,7 @@ $metaTitle = "Granite Digital - Accounts Assistant";
 $metaDescription = "Granite Digital.";
 $metaKeywords = "Granite Digital";
 $ogUrl = "https://www.granite.ie/accounts-assistant";
+$ogImage = "https://www.granite.ie/img/seamus-white.jpg";
 ?>
   <?php require 'inc/head.php'; ?>
 
@@ -16,7 +17,7 @@ $ogUrl = "https://www.granite.ie/accounts-assistant";
         <div class="container-fluid">
           <div class="row">
             <div class="col offset-sm-3">
-              <nav class="backlink"> <a href="./who-we-are.php"><img src="./img/arrow.svg" alt="Services"></a> </nav>
+              <nav class="backlink"> <a href="./who-we-are"><img src="./img/arrow.svg" alt="Services"></a> </nav>
               <h1>Seamus White</h1>
               <p>Seamus White has a wide breadth of multifunctional experience covering areas as diverse as Finance, Business Analysis, Strategic Planning, Category Management, Marketing and Sales and has held senior roles in both large multinationals and
                 indigenous SMEs.</p>

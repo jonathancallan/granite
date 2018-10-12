@@ -36,7 +36,7 @@ $ogUrl = "https://www.granite.ie/who-we-are";
         <div class="row">
           <div class="col-6 offset-sm-2 col-sm-3 col-md-3 col-xl-2 padding-b">
             <div class="thumbnail">
-              <a href="./who-we-are/alfsmiddy"><img src="./img/AlfSmiddyBW00.png" alt="Alf Smiddy"></a>
+              <a href="./who-we-are/alfsmiddy"><img src="./img/alf-smiddy.jpg" alt="Alf Smiddy"></a>
             </div>
             <h2><span class="small">Chairman</span>Alf Smiddy</h2>
             <p>
