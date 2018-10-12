@@ -34,40 +34,49 @@ $ogUrl = "https://www.granite.ie/who-we-are";
     <section class="image-grid">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-6 offset-sm-2 col-sm-3 col-md-2 padding-b">
+          <div class="col-6 offset-sm-2 col-sm-3 col-md-3 col-xl-2 padding-b">
             <div class="thumbnail">
-              <a href="./conorbuckley.php"><img src="./img/conor-buckley.jpg" alt=""></a>
+              <a href="./who-we-are/alfsmiddy"><img src="./img/AlfSmiddyBW00.png" alt="Alf Smiddy"></a>
+            </div>
+            <h2><span class="small">Chairman</span>Alf Smiddy</h2>
+            <p>
+              <a href="./who-we-are/alfsmiddy" class="icon forward">Learn more</a>
+            </p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-xl-2 padding-b">
+            <div class="thumbnail">
+              <a href="./conorbuckley"><img src="./img/conor-buckley.jpg" alt="Conor Buckley"></a>
             </div>
             <h2><span class="small">CEO</span>Conor Buckley</h2>
             <p>
-              <a href="./conorbuckley.php" class="icon forward">Learn more</a>
+              <a href="./conorbuckley" class="icon forward">Learn more</a>
             </p>
           </div>
-          <div class="col-6 col-sm-3 col-md-2 padding-b">
+          <div class="col-6 col-sm-3 col-md-3 col-xl-2 padding-b">
             <div class="thumbnail">
-              <a href="./seamuswhite.php"><img src="./img/seamus-white.jpg" alt=""></a>
+              <a href="./seamuswhite"><img src="./img/seamus-white.jpg" alt="Seamus White"></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Seamus White</h2>
             <p>
-              <a href="./seamuswhite.php" class="icon forward">Learn more</a>
+              <a href="./seamuswhite" class="icon forward">Learn more</a>
             </p>
           </div>
-          <div class="col-6 col-sm-3 col-md-2 padding-b">
+          <div class="col-6 col-sm-3 offset-md-2 col-md-3 offset-xl-0 col-xl-2 padding-b">
             <div class="thumbnail">
-              <a href="./robcarpenter.php"><img src="img/rob-carpenter.jpg" alt=""></a>
+              <a href="./robcarpenter"><img src="img/rob-carpenter.jpg" alt="Rob Carpenter"></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Rob Carpenter</h2>
             <p>
-              <a href="./robcarpenter.php" class="icon forward">Learn more</a>
+              <a href="./robcarpenter" class="icon forward">Learn more</a>
             </p>
           </div>
-          <div class="col-6 col-sm-3 col-md-2 padding-b">
+          <div class="col-6 col-sm-3 col-md-3 col-xl-2 padding-b">
             <div class="thumbnail">
-              <a href="./geroshea.php"><img src="img/ger-oshea.jpg" alt=""></a>
+              <a href="./geroshea"><img src="img/ger-oshea.jpg" alt="Ger O'Shea"></a>
             </div>
             <h2><span class="small">Director &amp; Co-Founder</span>Ger O'Shea</h2>
             <p>
-              <a href="./geroshea.php" class="icon forward">Learn more</a>
+              <a href="./geroshea" class="icon forward">Learn more</a>
             </p>
           </div>
         </div>
@@ -83,4 +92,4 @@ $ogUrl = "https://www.granite.ie/who-we-are";
     </div>
   </div>
   <footer>
-  <?php require 'inc/footer.php'; ?>
+    <?php require 'inc/footer.php'; ?>
