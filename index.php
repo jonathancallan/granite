@@ -12,7 +12,7 @@ $ogUrl = "https://www.granite.ie/";
         <div class="slider-wrapper">
             <div class="background">
                 <video autoplay loop>
-                    <source src="./video/dancing-guy-YouTube480-SD-Wide-LowBitrate.mp4" type="video/mp4"> Your browser does not support the video tag.
+                    <source src="./video/dancing-guy-YouTube480-SD-Wide-LowBitrate.mp4" type="video/mp4" muted> Your browser does not support the video tag.
                 </video>
             </div>
 

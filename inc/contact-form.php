@@ -4,49 +4,82 @@
    - The Mandatory check script can modified as to suit your business needs.
    - It is important that you test the modified form before going live.-->
 <div id='crmWebToEntityForm'>
-   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads226960000008826036 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+  <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+  <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads226960000008826036 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
 
-	 <!-- Do not remove this code. -->
-	<input type='text' style='display:none;' name='xnQsjsdp' value='6a031a269b2822dd92f0b1f8730a730916e08961adbc2d271505b03fa7a17503'/>
-	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-	<input type='text' style='display:none;' name='xmIwtLD' value='b32a18cf6501e088a32248988741f7f7a3cf8fbe6fe61b3685200d3ff8f55dd2'/>
-	<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
-	<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.granite.ie&#x2f;thank-you' />
-	 <!-- Do not remove this code. -->
-       <style type="text/css">
-           .contact-form {
-               width: 100%;
-               max-width: 500px;
-               border-collapse: collapse;
-           }
-           .contact-form td,
-           .contact-form th {
-               border: 0;
-               padding: 10px 0;
-           }
-       </style>
-       
-	<table class="contact-form">
+    <!-- Do not remove this code. -->
+    <input type='text' style='display:none;' name='xnQsjsdp' value='6a031a269b2822dd92f0b1f8730a730916e08961adbc2d271505b03fa7a17503'/>
+    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+    <input type='text' style='display:none;' name='xmIwtLD' value='b32a18cf6501e088a32248988741f7f7a3cf8fbe6fe61b3685200d3ff8f55dd2'/>
+    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+    <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.granite.ie&#x2f;thank-you' />
+    <!-- Do not remove this code. -->
+    <style type="text/css">
+      .contact-form {
+        width: 100%;
+        max-width: 500px;
+        border-collapse: collapse;
+      }
 
-	<tr><td>First Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='40' name='First Name' /></td></tr>
+      .contact-form td,
+      .contact-form th {
+        border: 0;
+        padding: 10px 0;
+      }
+    </style>
 
-	<tr><td>Last Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='80' name='Last Name' /></td></tr>
+    <!--
 
-	<tr><td>Company Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Company' /></td></tr>
+*******************
+Hidden until a fix is found for the form.
+Edit the subheading to read "Simply complete the form and we'll contact you straight away."
+*******************
+-->
+    <table class="contact-form">
 
-	<tr><td>Phone</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='30' name='Phone' /></td></tr>
+      <tr>
+        <td>First Name<span style='color:red;'>*</span></td>
+        <td style='width:250px;'><input type='text' style='width:250px;'  maxlength='40' name='First Name' /></td>
+      </tr>
 
-	<tr><td>Email<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Email' /></td></tr>
+      <tr>
+        <td>Last Name<span style='color:red;'>*</span></td>
+        <td style='width:250px;'><input type='text' style='width:250px;'  maxlength='80' name='Last Name' /></td>
+      </tr>
 
-	<tr><td>Website</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='255' name='Website' /></td></tr>
+      <tr>
+        <td>Company Name<span style='color:red;'>*</span></td>
+        <td style='width:250px;'><input type='text' style='width:250px;'  maxlength='100' name='Company' /></td>
+      </tr>
 
-	<tr><td>Your Requirements<span style='color:red;'>*</span> </td><td> <textarea name='Description' maxlength='32000' style='width:250px;'>&nbsp;</textarea></td></tr>
+      <tr>
+        <td>Phone</td>
+        <td style='width:250px;'><input type='text' style='width:250px;'  maxlength='30' name='Phone' /></td>
+      </tr>
 
-	<tr><td>GDPR </td><td style='width:250px;' ><input type='checkbox'  name='LEADCF109' checked='true'/> Please check to indicate you have read &amp; understand our privacy policy in relation to personal data</td>
+      <tr>
+        <td>Email<span style='color:red;'>*</span></td>
+        <td style='width:250px;'><input type='text' style='width:250px;'  maxlength='100' name='Email' /></td>
+      </tr>
 
-	<tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Status</td><td style='width:250px;'>
-		<select style='width:250px;' name='Lead Status'>
+      <tr>
+        <td>Website</td>
+        <td style='width:250px;'><input type='text' style='width:250px;'  maxlength='255' name='Website' /></td>
+      </tr>
+
+      <tr>
+        <td>Your Requirements<span style='color:red;'>*</span> </td>
+        <td> <textarea name='Description' maxlength='32000' style='width:250px;'>&nbsp;</textarea></td>
+      </tr>
+
+      <tr>
+        <td>GDPR </td>
+        <td style='width:250px;'><input type='checkbox'  name='LEADCF109' checked='true'/> Please check to indicate you have read &amp; understand our privacy policy in relation to personal data</td>
+
+      <tr style='display:none;'>
+        <td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Status</td>
+        <td style='width:250px;'>
+          <select style='width:250px;' name='Lead Status'>
 			<option value='-None-'>-None-</option>
 			<option value='New&#x20;Enquiry'>New Enquiry</option>
 			<option value='Initial&#x20;Contact'>Initial Contact</option>
@@ -75,10 +108,13 @@
 			<option value='Gone'>Gone</option>
 			<option value='JUNK&#x20;&#x2f;&#x20;SPAM'>JUNK &#x2f; SPAM</option>
 			<option value='No&#x20;feedback&#x20;from&#x20;initial&#x20;response'>No feedback from initial response</option>
-		</select></td></tr>
+		</select></td>
+      </tr>
 
-	<tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Source</td><td style='width:250px;'>
-		<select style='width:250px;' name='Lead Source'>
+      <tr style='display:none;'>
+        <td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Source</td>
+        <td style='width:250px;'>
+          <select style='width:250px;' name='Lead Source'>
 			<option value='-None-'>-None-</option>
 			<option value='Affiliate'>Affiliate</option>
 			<option value='Quickbooks&#x20;List'>Quickbooks List</option>
@@ -107,66 +143,69 @@
 			<option value='Murrion'>Murrion</option>
 			<option value='Esus'>Esus</option>
 			<option value='Webtrade'>Webtrade</option>
-		</select></td></tr>
+		</select></td>
+      </tr>
 
-	<tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Type</td><td style='width:250px;'>
-		<select style='width:250px;' name='LEADCF2'>
+      <tr style='display:none;'>
+        <td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Type</td>
+        <td style='width:250px;'>
+          <select style='width:250px;' name='LEADCF2'>
 			<option value='-None-'>-None-</option>
 		<option selected value='Inbound'>Inbound</option>
 			<option value='Inside&#x20;Sales'>Inside Sales</option>
 			<option value='Outbound&#x20;&#x2f;&#x20;Prospecting'>Outbound &#x2f; Prospecting</option>
 			<option value='Public&#x20;Tender'>Public Tender</option>
 			<option value='Private&#x20;Tender&#x20;Invite&#x20;&#x2f;&#x20;Framework'>Private Tender Invite &#x2f; Framework</option>
-		</select></td></tr>
+		</select></td>
+      </tr>
 
-	<tr><td colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
-		<input style='font-size:12px;color:black'  type='submit' value='Submit' />
-		<input  type='reset' style='font-size:12px;color:black' value='Reset' />
+      <tr>
+        <td colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
+          <input style='font-size:12px;color:black'  type='submit' value='Submit' />
+          <input  type='reset' style='font-size:12px;color:black' value='Reset' />
 	    </td>
-	</tr>
-   </table>
-	<script>
- 	  var mndFileds=new Array('First Name','Last Name','Email','Company','Description');
- 	  var fldLangVal=new Array('First Name','Last Name','Email','Company Name','Your Requirements');
-		var name='';
-		var email='';
+      </tr>
+    </table>
+    <script>
+      var mndFileds = new Array('First Name', 'Last Name', 'Email', 'Company', 'Description');
+      var fldLangVal = new Array('First Name', 'Last Name', 'Email', 'Company Name', 'Your Requirements');
+      var name = '';
+      var email = '';
 
- 	  function checkMandatory() {
-		for(i=0;i<mndFileds.length;i++) {
-		  var fieldObj=document.forms['WebToLeads226960000008826036'][mndFileds[i]];
-		  if(fieldObj) {
-			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-			 if(fieldObj.type =='file')
-				{
-				 alert('Please select a file to upload.');
-				 fieldObj.focus();
-				 return false;
-				}
-			alert(fldLangVal[i] +' cannot be empty');
-   	   	  	  fieldObj.focus();
-   	   	  	  return false;
-			}  else if(fieldObj.nodeName=='SELECT') {
-  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-				alert(fldLangVal[i] +' cannot be none');
-				fieldObj.focus();
-				return false;
-			   }
-			} else if(fieldObj.type =='checkbox'){
- 	 	 	 if(fieldObj.checked == false){
-				alert('Please accept  '+fldLangVal[i]);
-				fieldObj.focus();
-				return false;
-			   }
-			 }
-			 try {
-			     if(fieldObj.name == 'Last Name') {
-				name = fieldObj.value;
- 	 	 	    }
-			} catch (e) {}
-		    }
-		}
-	     }
-
-</script>
-	</form>
+      function checkMandatory() {
+        for (i = 0; i < mndFileds.length; i++) {
+          var fieldObj = document.forms['WebToLeads226960000008826036'][mndFileds[i]];
+          if (fieldObj) {
+            if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+              if (fieldObj.type == 'file') {
+                alert('Please select a file to upload.');
+                fieldObj.focus();
+                return false;
+              }
+              alert(fldLangVal[i] + ' cannot be empty');
+              fieldObj.focus();
+              return false;
+            } else if (fieldObj.nodeName == 'SELECT') {
+              if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                alert(fldLangVal[i] + ' cannot be none');
+                fieldObj.focus();
+                return false;
+              }
+            } else if (fieldObj.type == 'checkbox') {
+              if (fieldObj.checked == false) {
+                alert('Please accept  ' + fldLangVal[i]);
+                fieldObj.focus();
+                return false;
+              }
+            }
+            try {
+              if (fieldObj.name == 'Last Name') {
+                name = fieldObj.value;
+              }
+            } catch (e) {}
+          }
+        }
+      }
+    </script>
+  </form>
 </div>

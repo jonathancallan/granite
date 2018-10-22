@@ -23,7 +23,7 @@ $ogUrl = "https://www.granite.ie/contact-us";
                         <nav class="backlink"> <a href="javascript:history.go(-1)"><img src="./img/arrow.svg" alt="Services"></a> </nav>
                         <h1>Contact Us.</h1>
                         <p>Dublin, Cork and Galway.</p>
-                        <?php require 'inc/contact-form.php'; ?>
+                        <?php include 'inc/contact-form.php' ?>
                     </div>
                 </div>
             </div>
