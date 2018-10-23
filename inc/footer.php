@@ -38,7 +38,7 @@
       </span>
 
       <ul itemscope itemtype="https://schema.org/ContactPoint">
-        <li class="telephone"><a href="tel:+353212427890" itemprop="telephone">+353 (0)21 242 7890 </a> </li>
+        <li class="telephone"><a href="tel:+353212427890" itemprop="telephone">+353 (0)21 2427890 </a> </li>
         <li class="email"><a href="mailto: info@granite.ie" itemprop="email">info@granite.ie</a>
         </li>
         <li class="map"><a href="https://www.google.ro/maps/place/51%C2%B053'56.2%22N+8%C2%B027'51.1%22W/@51.8989596,-8.4667035,17z/data=!4m5!3m4!1s0x0:0x0!8m2!3d51.898953!4d-8.464193?hl=en" target="_blank">View Map</a> </li>
@@ -51,7 +51,7 @@
       </span>
 
       <ul itemscope itemtype="https://schema.org/ContactPoint">
-        <li class="telephone"><a href="tel:+35318512800" itemprop="telephone">00 353 1 6337979</a> </li>
+        <li class="telephone"><a href="tel:+35318512800" itemprop="telephone">+353 (0)1 6337979</a> </li>
         <li class="email"><a href="mailto: info@granite.ie" itemprop="email">info@granite.ie</a>
         </li>
         <li class="map"><a href="https://www.google.ie/maps/place/enhance.ie/@53.33333,-6.252179,17z/data=!3m1!4b1!4m5!3m4!1s0x48671284f0e3d8f5:0x9de8e274491c82be!8m2!3d53.33333!4d-6.25223" target="_blank">View Map</a> </li>
@@ -64,7 +64,7 @@
       </span>
 
       <ul itemscope itemtype="https://schema.org/ContactPoint">
-        <li class="telephone"><a href="tel:+353091 511457" itemprop="telephone">+ 353 (0)91 511457 </a> </li>
+        <li class="telephone"><a href="tel:+353091 511457" itemprop="telephone">+353 (0)91 511457 </a> </li>
         <li class="email"><a href="mailto: info@granite.ie" itemprop="email">info@granite.ie</a>
         </li>
         <li class="map"><a href="https://www.google.ie/maps?q=gray+office+park+map&amp;ion=1&amp;espv=2&amp;bav=on.2,or.r_cp.&amp;bvm=bv.102537793,d.ZGU&amp;biw=1366&amp;bih=628&amp;dpr=1&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0CAcQ_AUoAmoVChMIiNXV-sXvxwIVoaDbCh0ozgnN"

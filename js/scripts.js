@@ -6,8 +6,18 @@ $(document).ready(function(){
   });
   $("#main-menu .close").on("click",function(){
     $("body").removeClass(".main-menu-open");
-      return false;
+    return false;
   });
+/* Press ESC to close menu by removing class */
+  $("body").keydown(function(e) {
+    //alert("Press");
+    if(e.key === "Escape") {
+      //alert("Escape");
+      $("body.main-menu-open").removeClass("main-menu-open");
+    }
+  });
+
+
 /* Init the slider */
 $('.home-slider').slick({
     centerMode: true,
