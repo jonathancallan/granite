@@ -7,7 +7,7 @@ $ogUrl = "https://www.granite.ie/";
 <?php require 'inc/head.php'; ?>
 
 <body class="careers landing">
-    <div class="hero-background mask">
+  <div class="hero-background mask">
     <div id="mask"></div>
     <video id="masked" autoplay loop>
       <source src="./video/office-scene-slowmotion-YouTube480-SD-Wide-LowBitrate.mp4" type="video/mp4">
@@ -44,34 +44,42 @@ $ogUrl = "https://www.granite.ie/";
           <div class="col-12 offset-md-2 col-md-4 col-lg-4">
             <div class="row">
               <div class="col-12 padding-b">
+                <h2><a href="./ui-designer.php">UI Designer</a></h2>
+                <p>We are looking for a passionate and super-talented UI Designer who is able to create amazing user experiences. If you have have an eye for clean, well structured design and possess superior UI skills then we'd love to meet you.</p>
+                <p><a href="./ui-designer.php" class="icon forward">Find out more</a></p>
+              </div>
+              <div class="col-12 padding-b">
+                <h2><a href="./ux-designer.php">UX Designer</a></h2>
+                <p>We are looking for a passionate and super-talented UX Designer who is able to create amazing user experiences. If you truely care about the detail then we'd love to hear from you.</p>
+                <p><a href="./ux-designer.php" class="icon forward">Find out more</a></p>
+              </div>
+              <div class="col-12 padding-b">
                 <h2><a href="./seo-manager.php">SEO Manager</a></h2>
-                <p>At Granite Digital we are offering a fantastic opportunity for an experienced SEO Specialist to join our expanding team. We are looking for someone with a passion for all things SEO combined with drive, enthusiasm and a real passion for
+                <p>At Granite Digital we are offering a fantastic opportunity for an experienced SEO Specialist to join our expanding team. We are looking for someone with a passion for all things SEO combined with drive, enthusiasm and a real
+                  passion for
                   achieving results. The successful candidate will join a team of SEO experts working on developing &amp; executing SEO strategies that significantly impact on clients’ websites performance.</p>
                 <p><a href="./seo-manager.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="./accounts-assistant.php">Accounts Assistant</a></h2>
-                <p>The successful candidate will join a dynamic team within Ireland's fastest growing digital agency. The individual must be a highly motivated self-starter with a desire to grow his/her own skills while providing a significant contribution
+                <p>The successful candidate will join a dynamic team within Ireland's fastest growing digital agency. The individual must be a highly motivated self-starter with a desire to grow his/her own skills while providing a significant
+                  contribution
                   to the team itself. A great can do attitude is a must.</p>
                 <p><a href="./accounts-assistant.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="./dotnet-web-developer.php">.NET Developer</a></h2>
-                <p>The successful candidate will be a software development engineer within the rapidly growing technical division of Ireland's leading web development company. The individual must be a highly motivated self-starter with a desire to grow his/her
+                <p>The successful candidate will be a software development engineer within the rapidly growing technical division of Ireland's leading web development company. The individual must be a highly motivated self-starter with a desire to
+                  grow his/her
                   own skills while providing a significant contribution to the team itself.</p>
                 <p><a href="./dotnet-web-developer.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="./senior-digital-project-manager.php">Senior Digital Project Manager</a></h2>
-                <p>Responsible for the day-to-day management of various digital projects. We expect you to be a tech-savvy with an in-depth understanding of digital technologies. You should be very organised with good attention to detail and have excellent
+                <p>Responsible for the day-to-day management of various digital projects. We expect you to be a tech-savvy with an in-depth understanding of digital technologies. You should be very organised with good attention to detail and have
+                  excellent
                   time management skills. As a Digital Project Manager, you should also have good communication skills to collaborate effectively with internal teams and customers alike.</p>
                 <p><a href="./senior-digital-project-manager.php" class="icon forward">Find out more</a></p>
-              </div>
-              <div class="col-12 padding-b">
-                <h2><a href="./ui-ux-designer.php">UX &amp; UI Designer</a></h2>
-                <p>You will help define and drive the future of Granite Digital design. You will identify and contribute to product strategy, envision complex UX ecosystems and help inspire the internal teams to push the boundaries of what’s possible. You
-                  possess a clear vision of the future of UX and have the courage to pursue forward-thinking design.</p>
-                <p><a href="./ui-ux-designer.php" class="icon forward">Find out more</a></p>
               </div>
             </div>
           </div>
