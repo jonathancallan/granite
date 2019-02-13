@@ -7,7 +7,6 @@ $ogUrl = "https://www.granite.ie/ucc";
 
 <body class="portfolio standard">
   <div class="hero-background">
-    <svg id="angle-bar-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1362 245"><polygon class="cls-1" points="1362 155.38 1362 0 417.38 0 416.98 2.45 1362 155.38"/><polygon class="cls-1" points="285.13 0 21.06 0 1362 217 1362 174.26 285.13 0"/></svg>
     <picture>
       <source media="(min-width: 768px)" srcset="./img/work-ucc-medical-desktop.jpg">
       <img src="./img/work-ucc-medical-mobile.jpg" alt="UCC" style="width:auto;">

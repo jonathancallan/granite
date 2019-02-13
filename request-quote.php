@@ -18,8 +18,7 @@ $ogUrl = "https://www.granite.ie/request-quote";
           <div class="col offset-sm-3">
             <nav class="backlink"> <a href="javascript:history.go(-1)"><img src="./img/arrow.svg" alt="Services"></a> </nav>
             <h1>Request a Quote</h1>
-            <p>Simply complete the form below and we'll reply to you straight away.</p>
-            <?php include 'inc/contact-form.php' ?>
+            <p>Simply complete the form and we'll reply to you straight away.</p>
           </div>
         </div>
       </div>
@@ -28,24 +27,7 @@ $ogUrl = "https://www.granite.ie/request-quote";
       <div class="container-fluid">
         <div class="row">
           <div class="offset-sm-3 col">
-            <h2 style="margin-bottom: 0;">Offices</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="offset-sm-3 col-xs-12 col-sm">
-            <h4>Cork</h4>
-            <p><a href="tel:+353212427890">+353 (0)21 242 7890</a> <br>
-              <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
-          </div>
-          <div class="col-xs-12 col-sm">
-            <h4>Dublin</h4>
-            <p><a href="tel:+35318512800">+353 (0)1 6337979</a> <br>
-              <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
-          </div>
-          <div class="col-xs-12 col-sm">
-            <h4>Galway</h4>
-            <p><a href="tel:+353091 511457 ">+353 (0)91 511457 </a> <br>
-              <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
+            <?php include 'inc/contact-form-captcha.php' ?>
           </div>
         </div>
       </div>
