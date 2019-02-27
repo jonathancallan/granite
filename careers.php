@@ -56,16 +56,8 @@ $ogUrl = "https://www.granite.ie/";
               <div class="col-12 padding-b">
                 <h2><a href="./seo-manager.php">SEO Manager</a></h2>
                 <p>At Granite Digital we are offering a fantastic opportunity for an experienced SEO Specialist to join our expanding team. We are looking for someone with a passion for all things SEO combined with drive, enthusiasm and a real
-                  passion for
-                  achieving results. The successful candidate will join a team of SEO experts working on developing &amp; executing SEO strategies that significantly impact on clients’ websites performance.</p>
+                  passion for achieving results. The successful candidate will join a team of SEO experts working on developing &amp; executing SEO strategies that significantly impact on clients’ websites performance.</p>
                 <p><a href="./seo-manager.php" class="icon forward">Find out more</a></p>
-              </div>
-              <div class="col-12 padding-b">
-                <h2><a href="./accounts-assistant.php">Accounts Assistant</a></h2>
-                <p>The successful candidate will join a dynamic team within Ireland's fastest growing digital agency. The individual must be a highly motivated self-starter with a desire to grow his/her own skills while providing a significant
-                  contribution
-                  to the team itself. A great can do attitude is a must.</p>
-                <p><a href="./accounts-assistant.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="./dotnet-web-developer.php">.NET Developer</a></h2>
