@@ -393,7 +393,7 @@ video#masked {
     .item {
         position:relative;
         height:40vh;
-        width:90vw;   
+        width:90vw;
         background-size:cover;
         background-repeat:no-repeat;
         background-position: top center;
@@ -455,6 +455,16 @@ video#masked {
         .item {
         }
     }
+}
+
+
+.client-logo-slider {
+    background-color: #ffffff;
+    padding: 50px 0;
+  .item img {
+    max-height: 75px;
+    margin: 0 40px;
+  }
 }
 /* ---------------------------- Section Content Standard ---------------------------- */
 .content {

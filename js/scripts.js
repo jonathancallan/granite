@@ -27,4 +27,38 @@ $('.home-slider').slick({
     arrows: false,
     autoplay:true
   });
+
+$('.client-logo-slider').slick({
+    dots: false,
+    autoplaySpeed: 3000,
+    speed: 2000,
+    cssEase: 'ease-in-out',
+    arrows: false,
+    autoplay:true,
+    variableWidth: true,
+    slidesToShow: 6,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4
+        }
+      }
+    ]
+});
+
+
+// Close document ready
 });
