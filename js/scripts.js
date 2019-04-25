@@ -40,6 +40,8 @@ $('.client-logo-slider').slick({
     responsive: [
       {
         breakpoint: 480,
+        dots: true,
+        autoplay:false,
         settings: {
           slidesToShow: 2
         }
@@ -54,7 +56,13 @@ $('.client-logo-slider').slick({
         breakpoint: 992,
         settings: {
           slidesToShow: 4
-        }
+        },
+      },
+      {
+        breakpoint: 2000,
+        settings: {
+          slidesToShow: 6
+        },
       }
     ]
 });

@@ -17,13 +17,13 @@ $ogUrl = "https://www.granite.ie/";
       </div>
 
       <div class="home-slider">
-        <div class="item work"><a href="./portfolio">Work</a>
+        <div class="item work"><a href="./portfolio"><b>Work</b></a>
         </div>
-        <div class="item services"><a href="./what-we-do">Services</a>
+        <div class="item services"><a href="./what-we-do"><b>Services</b></a>
         </div>
-        <div class="item about"><a href="./who-we-are">About</a>
+        <div class="item about"><a href="./who-we-are"><b>About</b></a>
         </div>
-        <div class="item careers"><a href="./careers">Careers</a>
+        <div class="item careers"><a href="./careers"><b>Careers</b></a>
         </div>
       </div>
     </div>

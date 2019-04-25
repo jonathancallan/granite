@@ -263,6 +263,8 @@ video#masked {
     width: 100%;
     height: 100%;
     text-indent: -9999px; }
+    .home-slider .item a b {
+      visibility: hidden; }
   .home-slider .item.work {
     background-image: url(../img/home-slider-work-mask.svg); }
   .home-slider .item.services {

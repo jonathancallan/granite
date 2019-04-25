@@ -407,6 +407,9 @@ video#masked {
             width:100%;
             height:100%;
             text-indent:-9999px;
+            b {
+                visibility: hidden;
+            }
         }
         &.work {
         background-image:url(../img/home-slider-work-mask.svg);
