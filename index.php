@@ -28,14 +28,13 @@ $ogUrl = "https://www.granite.ie/";
       </div>
     </div>
     <section class="client-logo-slider">
-      <div class="item"><img src="./img/dalata.png" alt="Logo"></div>
-      <div class="item"><img src="./img/davy.png" alt="Logo"></div>
-      <div class="item"><img src="./img/ucd.png" alt="Logo"></div>
-      <div class="item"><img src="./img/ucc.png" alt="Logo"></div>
-      <div class="item"><img src="./img/open-eir.png" alt="Logo"></div>
-      <div class="item"><img src="./img/aon.png" alt="Logo"></div>
-      <div class="item"><img src="./img/barrys-tea.png" alt="Logo"></div>
-      <div class="item"><img src="./img/fire.png" alt="Logo"></div>
+      <div class="item"><img src="./img/dalata.png" alt="Dalata Hotel Group"></div>
+      <div class="item"><img src="./img/davy.png" alt="Davy"></div>
+      <div class="item"><img src="./img/ucd.png" alt="UCD"></div>
+      <div class="item"><img src="./img/ucc.png" alt="University College Cork"></div>
+      <div class="item"><img src="./img/aon.png" alt="AON"></div>
+      <div class="item"><img src="./img/barrys-tea.png" alt="Barry's Tea"></div>
+      <div class="item"><img src="./img/fire.png" alt="Fire.com"></div>
     </section>
     <section class="content grid bg-white padding-t margin-b-zero" style="margin-top:0;">
       <div class="container-fluid">
