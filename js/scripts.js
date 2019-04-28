@@ -30,41 +30,14 @@ $('.home-slider').slick({
 
 $('.client-logo-slider').slick({
     dots: false,
-    autoplaySpeed: 3000,
-    speed: 2000,
-    cssEase: 'ease-in-out',
+    autoplaySpeed: 0,
+    speed: 20000,
+    cssEase: 'linear',
     arrows: false,
     autoplay:true,
     variableWidth: true,
-    slidesToShow: 6,
-    responsive: [
-      {
-        breakpoint: 480,
-        dots: true,
-        autoplay:false,
-        settings: {
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 4
-        },
-      },
-      {
-        breakpoint: 2000,
-        settings: {
-          slidesToShow: 6
-        },
-      }
-    ]
+    slidesToScroll: 1,
+    slidesToShow: 1
 });
 
 

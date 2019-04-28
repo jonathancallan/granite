@@ -35,6 +35,10 @@ $ogUrl = "https://www.granite.ie/";
       <div class="item"><img src="./img/aon.png" alt="AON"></div>
       <div class="item"><img src="./img/barrys-tea.png" alt="Barry's Tea"></div>
       <div class="item"><img src="./img/fire.png" alt="Fire.com"></div>
+      <div class="item"><img src="./img/wolverhampton-university.png" alt="Wolverhampton University"></div>
+      <div class="item"><img src="./img/dublin-bus.png" alt="Dublin Bus"></div>
+      <div class="item"><img src="./img/bon-secours.png" alt="Bon Secours"></div>
+      <div class="item"><img src="./img/forsa.png" alt="Forsa"></div>
     </section>
     <section class="content grid bg-white padding-t margin-b-zero" style="margin-top:0;">
       <div class="container-fluid">
