@@ -73,7 +73,7 @@
     <div class="col-sm-4"></div>
   </div>
   <div class="row">
-    <div class="col-xs-12 offset-sm-1">&copy;2018 Granite Digital</div>
+    <div class="col-xs-12 offset-sm-1">&copy;2019 Granite Digital</div>
   </div>
 </div>
 </footer>
