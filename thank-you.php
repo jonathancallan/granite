@@ -50,7 +50,6 @@ $ogUrl = "https://www.granite.ie/contact-us";
           </div>
           <div class="col-xs-12 col-sm">
             <h4>Galway</h4>
-            <p>Granite Digital<br>Gray Office Park<br>Galway Retail Park<br>Headford Road, Galway</p>
             <p><a href="tel:+353091 511457 ">+ 353 (0)91 511457 </a> <br>
               <a href="mailto: info@granite.ie">info@granite.ie</a> <br> </p>
           </div>
