@@ -22,7 +22,7 @@ $ogUrl = "https://www.granite.ie/";
         <div class="row">
           <div class="col offset-sm-2">
             <h1>Careers</h1>
-            <p>Granite Digital is Ireland’s leading Digital Agency, with a proven record for delivering results and new business for our clients through custom web applications development and search engine marketing.</p>
+            <p>Granite Digital is Ireland’s leading Digital Agency, with a proven record for delivering results and new business for our clients through custom web application development and search engine marketing.</p>
           </div>
         </div>
       </div>
@@ -45,12 +45,13 @@ $ogUrl = "https://www.granite.ie/";
             <div class="row">
               <div class="col-12 padding-b">
                 <h2><a href="./ui-designer.php">UI Designer</a></h2>
-                <p>We are looking for a passionate and super-talented UI Designer who is able to create amazing user experiences. If you have have an eye for clean, well structured design and possess superior UI skills then we'd love to meet you.</p>
+                <p>We are always on the lookout for passionate and super-talented UI Designers who are able to create amazing user experiences. If you have an eye for clean, well structured design and possess superior UI skills, then we want to hear
+                  from you.</p>
                 <p><a href="./ui-designer.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="./ux-designer.php">UX Designer</a></h2>
-                <p>We are looking for a passionate and super-talented UX Designer who is able to create amazing user experiences. If you truely care about the detail then we'd love to hear from you.</p>
+                <p>We are always in the market to speak with an individual who is a passionate and super-talented UX Designer, able to create amazing user experiences.</p>
                 <p><a href="./ux-designer.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
@@ -61,16 +62,14 @@ $ogUrl = "https://www.granite.ie/";
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="./dotnet-web-developer.php">.NET Developer</a></h2>
-                <p>The successful candidate will be a software development engineer within the rapidly growing technical division of Ireland's leading web development company. The individual must be a highly motivated self-starter with a desire to
-                  grow his/her
-                  own skills while providing a significant contribution to the team itself.</p>
+                <p>We have a fast-growing developer team who love solving big problems and building systems to address them. We build robust, highly scalable services in fast cycles. We are always interested in hearing from .net developers who have
+                  that passion and are looking to join the team.</p>
                 <p><a href="./dotnet-web-developer.php" class="icon forward">Find out more</a></p>
               </div>
               <div class="col-12 padding-b">
                 <h2><a href="./senior-digital-project-manager.php">Senior Digital Project Manager</a></h2>
-                <p>Responsible for the day-to-day management of various digital projects. We expect you to be a tech-savvy with an in-depth understanding of digital technologies. You should be very organised with good attention to detail and have
-                  excellent
-                  time management skills. As a Digital Project Manager, you should also have good communication skills to collaborate effectively with internal teams and customers alike.</p>
+                <p>If you are an experienced Digital Project Manager looking to join our expanding team in the Dublin Office, we would love to hear from you. We have are full complement at the moment but will be looking to expand the team in the
+                  near future.</p>
                 <p><a href="./senior-digital-project-manager.php" class="icon forward">Find out more</a></p>
               </div>
             </div>
