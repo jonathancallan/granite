@@ -278,7 +278,7 @@ video#masked {
   .slider-wrapper {
     margin-top: 0px; }
     .slider-wrapper .home-slider .item {
-      height: 80vh; } }
+      height: 70vh; } }
 @media (min-width: 992px) {
   .home-slider .item.work {
     background-image: url(../img/home-slider-work-mask-banner.svg); }
@@ -511,26 +511,35 @@ video#masked {
 nav#main-cta {
   position: fixed;
   z-index: 100;
-  top: 20px;
-  right: 20px; }
-  nav#main-cta li {
-    display: inline-block; }
-    nav#main-cta li a {
-      display: block;
-      padding: 10px 20px;
-      background-color: #f2f2f2;
-      position: relative;
-      transition: all 200ms ease-in-out;
-      color: #000; }
-      nav#main-cta li a:hover {
-        text-decoration: none;
-        transform: translateY(3px); }
-      nav#main-cta li a.cta {
-        background-color: #000;
-        color: #fff;
-        font-weight: 700;
-        text-transform: uppercase; }
+  top: 15px;
+  right: 15px; }
+  nav#main-cta ul {
+    margin: 0;
+    padding: 0; }
+    nav#main-cta ul li {
+      display: inline-block;
+      margin: 0;
+      padding: 0; }
+      nav#main-cta ul li a {
+        display: block;
+        padding: 10px 20px;
+        background-color: #f2f2f2;
+        position: relative;
+        transition: all 200ms ease-in-out;
+        color: #000; }
+        nav#main-cta ul li a:hover {
+          text-decoration: none;
+          transform: translateY(3px); }
+        nav#main-cta ul li a.cta {
+          background-color: #000;
+          color: #fff;
+          font-weight: 700;
+          text-transform: uppercase; }
 
+@media (min-width: 768px) {
+  nav#main-cta {
+    top: 20px;
+    right: 20px; } }
 /* Circular disc that opens to show main menu */
 .main-menu-open .disc {
   animation-name: explode; }
@@ -602,32 +611,46 @@ nav#main-cta {
 .logo {
   position: fixed;
   z-index: 100;
-  width: 40px;
-  height: auto;
-  top: 20px;
-  left: 0;
-  transform: translateX(-50px);
-  animation-name: logopop;
-  animation-duration: 400ms;
-  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  animation-delay: 1000ms;
-  animation-fill-mode: both; }
+  top: 15px;
+  left: 15px; }
+  .logo a {
+    display: block; }
 
-@keyframes logopop {
-  0% {
-    transform: translateX(-40px); }
-  100% {
-    transform: translateX(0px); } }
 @media (min-width: 768px) {
   .logo {
-    width: 50px;
-    height: auto; }
+    top: 20px;
+    left: 20px; } }
+@keyframes dropdown {
+  0% {
+    transform: translateY(30px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0px);
+    opacity: 1; } }
+/* ---------------------------- Spider Award 2019 ---------------------------- */
+a.spider-award {
+  display: block;
+  position: fixed;
+  left: 15px;
+  bottom: 15px; }
+  a.spider-award img {
+    height: 80px; }
 
-  @keyframes logopop {
-    0% {
-      transform: translateX(-50px); }
-    100% {
-      transform: translateX(0px); } } }
+@media (min-width: 768px) {
+  a.spider-award {
+    position: static;
+    left: auto;
+    bottom: auto; }
+    a.spider-award img {
+      width: 150px;
+      height: auto;
+      display: block;
+      margin: 10px 0 0 0;
+      animation-name: dropdown;
+      animation-duration: 1000ms;
+      animation-timing-function: ease-in-out;
+      animation-delay: 800ms;
+      animation-fill-mode: both; } }
 /* ---------------------------- Text grid ---------------------------- */
 .text-grid h2 {
   font-family: "Oswald", sans-serif;

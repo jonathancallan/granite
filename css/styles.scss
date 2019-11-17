@@ -430,7 +430,7 @@ video#masked {
             margin-top:0px;
     .home-slider {
         .item {
-            height:80vh;
+            height:70vh;
         }
     }
 }
@@ -756,11 +756,17 @@ video#masked {
 nav#main-cta {
   position: fixed;
   z-index : 100;
-  top     : 20px;
-  right   : 20px;
+  top     : 15px;
+  right   :15px;
+    
+    ul {
+        margin: 0;
+        padding: 0;
 
   li {
     display: inline-block;
+      margin: 0;
+      padding: 0;
 
     a {
       display         : block;
@@ -782,7 +788,14 @@ nav#main-cta {
         text-transform  : uppercase;
       }
     }
+    }
   }
+}
+@media (min-width:768px) {
+    nav#main-cta {
+          top     : 20px;
+          right   : 20px;
+    }
 }
 /* Circular disc that opens to show main menu */
 .main-menu-open .disc {
@@ -873,41 +886,59 @@ nav#main-cta {
 .logo {
   position                 : fixed;
   z-index                  : 100;
-  width                    : 40px;
-  height                   : auto;
-  top                      : 20px;
-  left                     : 0;
-  transform                : translateX(-50px);
-  animation-name           : logopop;
-  animation-duration       : $time-base * 2;
-  animation-timing-function: cubic-bezier(0,0,.2,1);
-  animation-delay          : 1000ms;
-  animation-fill-mode      : both;
+  top                      : 15px;
+  left                     : 15px;
+    a {
+        display: block;
+    }
 }
-@keyframes logopop {
+@media (min-width:768px) {
+    .logo {
+        top                      : 20px;
+        left                     : 20px;
+    }
+}
+@keyframes dropdown {
   0% {
-    transform: translateX(-40px);
+    transform: translateY(30px);
+      opacity: 0;
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateY(0px);
+      opacity: 1;
   }
+}
+
+/* ---------------------------- Spider Award 2019 ---------------------------- */
+a.spider-award {
+    display: block;
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+    img {
+        height: 80px;
+    }
 }
 @media (min-width:768px) {
-  .logo {
-    width : 50px;
+    a.spider-award {
+        position: static;
+        left: auto;
+        bottom: auto;
+img {
+    width: 150px;
     height: auto;
-  }
-  @keyframes logopop {
-    0% {
-      transform: translateX(-50px);
-    }
-
-    100% {
-      transform: translateX(0px);
-    }
-  }
+    display: block;
+    margin: 10px 0 0 0;
+  animation-name           : dropdown;
+  animation-duration       : $time-base * 5;
+  animation-timing-function: ease-in-out;
+  animation-delay          : 800ms;
+  animation-fill-mode      : both;
 }
+    }
+}
+
 /* ---------------------------- Text grid ---------------------------- */
 
 .text-grid {

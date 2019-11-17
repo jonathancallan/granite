@@ -43,7 +43,6 @@ $ogUrl = "https://www.granite.ie/what-we-do";
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-8 col-lg-5 padding-b">
-            <img src="./img/ux-workshop-brainstorming-2.jpg" alt="UX Workshop" />
           </div>
           <div class="col-12 col-lg-6 offset-lg-1">
             <div class="row">
@@ -56,11 +55,6 @@ $ogUrl = "https://www.granite.ie/what-we-do";
                 <h2><a href="./seo-workshops.php">Training</a></h2>
                 <p>Granite Digital are one of Ireland’s leading digital marketing agencies, with a proven record for delivering results.</p>
                 <p><a href="./seo-workshops.php" class="icon forward">Find out more</a></p>
-              </div>
-              <div class="col-12 col-sm-6 padding-b">
-                <h2><a href="./cloud-email.php">Cloud Email</a></h2>
-                <p>We ensure your cloud migration is meticulous, guarantees a smooth and stress-free move of your email to the cloud.</p>
-                <p><a href="./cloud-email.php" class="icon forward">Find out more</a></p>
               </div>
             </div>
           </div>
@@ -75,5 +69,5 @@ $ogUrl = "https://www.granite.ie/what-we-do";
       <p>Contact us today <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
     </div>
   </div>
-<footer>
-<?php require 'inc/footer.php'; ?>
+  <footer>
+    <?php require 'inc/footer.php'; ?>

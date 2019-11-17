@@ -34,7 +34,7 @@
       <!-- need to use Schema.org -->
       <span itemscope itemtype="http://schema.org/PostalAddress">
         <h4 itemprop="addressLocality">Cork</h4>
-        <p itemprop="streetAddress">First Floor,<br> City Quarter,<br> Lapps Quay, Cork</p>
+        <p itemprop="streetAddress">First Floor,<br> City Quarter,<br> Lapps Quay, Cork,<br>T12 KCW0</p>
       </span>
 
       <ul itemscope itemtype="https://schema.org/ContactPoint">
@@ -47,7 +47,7 @@
     <div class="col-6 col-sm-2">
       <span itemscope itemtype="http://schema.org/PostalAddress">
         <h4 itemprop="addressLocality">Dublin</h4>
-        <p itemprop="streetAddress">25 Temple Lane South,<br> Temple Bar,<br> Dublin 2</p>
+        <p itemprop="streetAddress">25 Temple Lane South,<br> Temple Bar,<br> Dublin 2,<br>D02 VK80</p>
       </span>
 
       <ul itemscope itemtype="https://schema.org/ContactPoint">

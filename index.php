@@ -68,11 +68,6 @@ $ogUrl = "https://www.granite.ie/";
             <p>Granite Digital are one of Ireland’s leading digital marketing agencies, with a proven record for delivering results.</p>
             <p><a href="./seo-workshops.php" class="icon forward">Find out more</a></p>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md padding-b">
-            <h3><a href="./cloud-email.php">Cloud Email</a></h3>
-            <p>We ensure your cloud migration is meticulous, guarantees a smooth and stress-free move of your email to the cloud.</p>
-            <p><a href="./cloud-email.php" class="icon forward">Find out more</a></p>
-          </div>
         </div>
       </div>
     </section>
