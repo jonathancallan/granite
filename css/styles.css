@@ -1,4 +1,7 @@
 /* ---------------------------- Variables ---------------------------- */
+.hidden {
+  display: none !important; }
+
 html {
   margin: 0;
   padding: 0; }
@@ -350,7 +353,7 @@ video#masked {
     text-transform: uppercase;
     margin-bottom: 20px; }
   .content h4 {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -535,7 +538,7 @@ nav#main-cta {
       padding: 0; }
       nav#main-cta ul li a {
         display: block;
-        padding: 10px 20px;
+        padding: 8px 17px 9px 17px;
         background-color: #f2f2f2;
         position: relative;
         transition: all 200ms ease-in-out;
@@ -552,7 +555,9 @@ nav#main-cta {
 @media (min-width: 768px) {
   nav#main-cta {
     top: 20px;
-    right: 20px; } }
+    right: 20px; }
+    nav#main-cta ul li a {
+      padding: 10px 20px; } }
 /* Circular disc that opens to show main menu */
 .main-menu-open .disc {
   animation-name: explode; }
@@ -641,20 +646,20 @@ nav#main-cta {
     transform: translateY(0px);
     opacity: 1; } }
 /* ---------------------------- Spider Award 2019 ---------------------------- */
-a.spider-award {
+.spider-award {
   display: block;
   position: fixed;
   left: 15px;
   bottom: 15px; }
-  a.spider-award img {
+  .spider-award img {
     height: 80px; }
 
 @media (min-width: 768px) {
-  a.spider-award {
+  .spider-award {
     position: static;
     left: auto;
     bottom: auto; }
-    a.spider-award img {
+    .spider-award img {
       width: 150px;
       height: auto;
       display: block;
@@ -691,7 +696,7 @@ a.spider-award {
   color: #007bff; }
 .image-grid h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.5;
   text-transform: uppercase; }
   .image-grid h2 span {
@@ -817,7 +822,7 @@ footer {
   padding: 50px 0 50px;
   font-size: 12px; }
   footer h4 {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 20px;

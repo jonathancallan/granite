@@ -28,6 +28,10 @@ $page-colour-secondary-about: #00D387;
 $page-colour-primary-careers: #F89500;
 $page-colour-secondary-careers: #0072C8;
 
+
+.hidden {
+    display: none!important;
+}
 html {
   margin : 0;
   padding: 0;
@@ -543,7 +547,7 @@ video#masked {
   }
 
   h4 {
-    font-size     : $font-size-base;
+    font-size     : $font-size-base + 2px;
     text-transform: uppercase;
     margin-top    : $spacer * 5;
     margin-bottom : $spacer * 2;
@@ -783,7 +787,7 @@ nav#main-cta {
 
     a {
       display         : block;
-      padding         : 10px 20px;
+      padding         : 8px 17px 9px 17px;
       background-color: $colour-lightest-grey;
       position        : relative;
       transition      : all $time-base ease-in-out;
@@ -808,6 +812,9 @@ nav#main-cta {
     nav#main-cta {
           top     : 20px;
           right   : 20px;
+        ul li a {
+            padding: 10px 20px;
+        }
     }
 }
 /* Circular disc that opens to show main menu */
@@ -924,7 +931,7 @@ nav#main-cta {
 }
 
 /* ---------------------------- Spider Award 2019 ---------------------------- */
-a.spider-award {
+.spider-award {
     display: block;
     position: fixed;
     left: 15px;
@@ -934,7 +941,7 @@ a.spider-award {
     }
 }
 @media (min-width:768px) {
-    a.spider-award {
+    .spider-award {
         position: static;
         left: auto;
         bottom: auto;
@@ -999,7 +1006,7 @@ img {
 
   h2 {
     font-family   : $font-family-headline;
-    font-size     : $font-size-base;
+    font-size     : $font-size-medium;
     line-height   : 1.5;
     text-transform: uppercase;
 
@@ -1172,7 +1179,7 @@ footer {
   font-size: $font-size-small;
 
   h4 {
-    font-size     : $font-size-base;
+    font-size     : $font-size-base + 2px;
     text-transform: uppercase;
     font-weight   : 700;
     margin-bottom : 20px;

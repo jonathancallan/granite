@@ -64,9 +64,9 @@ $ogUrl = "https://www.granite.ie/";
             <p><a href="./digital-marketing.php" class="icon forward">Find out more</a></p>
           </div>
           <div class="col-xs-12 col-sm-4 col-md padding-b">
-            <h3><a href="./seo-workshops.php">Training</a></h3>
-            <p>Granite Digital are one of Ireland’s leading digital marketing agencies, with a proven record for delivering results.</p>
-            <p><a href="./seo-workshops.php" class="icon forward">Find out more</a></p>
+            <h3><a href="./ux-training/ux-essentials.php">UX Essentials Training</a></h3>
+            <p>UX Essentials workshop,  invite only event for Granite clients.</p>
+            <p><a href="./ux-training/ux-essentials.php" class="icon forward">Find out more</a></p>
           </div>
         </div>
       </div>
