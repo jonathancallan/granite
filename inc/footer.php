@@ -98,6 +98,7 @@
 </nav>
 <script type="text/javascript" src="./plugins/jquery-3.3.1/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="./plugins/slick/slick.min.js"></script>
+<script type="text/javascript" src="./plugins/modal-video/js/jquery-modal-video.min.js"></script>
 <script type="text/javascript" src="./js/scripts.js"></script>
 <!-- Copied from old site -->
 <script>

@@ -11,7 +11,8 @@
   </div>
   <nav id="main-cta">
     <ul>
-      <li><a href="#main-menu" id="trigger-menu">Menu</a></li>
+      <li><a href="./granite-digital-to-create-50-new-jobs-in-dublin-cork-galway"><span class="hidden-xs">Latest </span>News</a></li>
+      <li><a href="#main-menu" id="trigger-menu"><img src="../img/hamburger.svg" alt="Main Menu"></a></li>
       <li><a href="./request-quote" class="cta">Contact</a></li>
     </ul>
   </nav>

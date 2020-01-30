@@ -39,14 +39,7 @@ $ogUrl = "https://www.granite.ie/content-management-systems-_cm";
 
               <p>A CMS is a software solution which will allow you edit and publish content to your website so you control what your customers see.</p>
 
-              <p>At Granite Digital we have worked with many solutions over the years and we recommend the following:</p>
-
-              <ul>
-                <li>TeamworkCMS</li>
-                <li>Wordpress CMS</li>
-              </ul>
-
-              <h3>TeamworkCMS</h3>
+              <h3>Teamwork CMS</h3>
 
               <p>TeamworkCMS is a powerful Content Management Solution (CMS) that can manage the content of any website. You are not limited with the design you want to use. One of the best features is a component plug-in architecture that allows user to
                 quickly plug-in features such as image galleries into any page on the website with just a few clicks.</p>
@@ -57,7 +50,9 @@ $ogUrl = "https://www.granite.ie/content-management-systems-_cm";
                 for Granite is the ongoing security of your Wordpress site to ensure your sensitive business data and brand identity is maintained.</p>
 
 
-
+                <h3>Umbraco CMS</h3>
+                <p>Built upon Microsoft's .NET Framework, Umbraco is a completely FREE, Open Source Content Management System</p>
+                <p><a href="http://www.umbraco.ie" target="_blank">Find out more on Umbraco.ie</a></p>
 
             </div>
           </div>

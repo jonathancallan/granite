@@ -39,7 +39,22 @@ $('.client-logo-slider').slick({
     slidesToScroll: 1,
     slidesToShow: 1
 });
+$('.umbraco-logo-slider').slick({
+    dots: false,
+    autoplaySpeed: 0,
+    speed: 20000,
+    cssEase: 'linear',
+    arrows: false,
+    autoplay:true,
+    variableWidth: true,
+    slidesToScroll: 1,
+    slidesToShow: 1
+});
 
 
+/* Modal Video */    
+$(".js-modal-btn").modalVideo({channel:'vimeo',animationSpeed:0});
+    
+    
 // Close document ready
 });

@@ -6,27 +6,22 @@ $ogUrl = "https://www.granite.ie/umbraco";
 ?>
 <?php require 'inc/head.php'; ?>
 <body class="services standard">
-<div class="hero-background mask">
-  <div id="mask"></div>
-  <video id="masked" autoplay loop>
-    <source src="../video/office-scene-slowmotion-YouTube480-SD-Wide-LowBitrate.mp4" type="video/mp4">
-    Your browser does not support the video tag. </video>
-</div>
 <?php require 'inc/header.php'; ?>
 <main> 
   <!-- Hero banner -->
-  <div class="hero">
+  <div class="hero image" style="background-color: #3544B1;">
     <div class="container-fluid">
       <div class="row">
-        <div class="col offset-sm-2">
-          <h1>Umbraco</h1>
-          <p>Customer experience cuts across every interaction your audience has with you. Do it well — and you'll have a customer for life. We collaborate, understand and craft solutions to enhance your digital business..</p>
+        <div class="col" style="text-align: center;">
+          <h1>Why Umbraco CMS?</h1>
+          <p style="margin: 20px  auto">Built upon Microsoft's .NET Framework, Umbraco is a completely FREE, Open Source Content Management System.</p>
+            <p><a href="https://vimeo.com/172382998" class="js-modal-btn" data-video-id="172382998"><img src="../img/play-icon.svg" alt="Play Video"></a></p>
         </div>
       </div>
     </div>
   </div>
   <!-- Start of main content -->
-  <section class="text-grid">
+  <section class="text-grid hidden">
     <div class="container-fluid">
       <div class="row padding-b">
         <div class="col-12 offset-md-2 col-md-4 col-lg-4">
@@ -35,27 +30,61 @@ $ogUrl = "https://www.granite.ie/umbraco";
       </div>
     </div>
   </section>
-  <section class="text-grid">
+    
+    <section class="1">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-12">
+            <h2 style="text-align: center;">You're in good company with Umbraco CMS</h2>
+    <p  style="text-align: center;">There are over 500,000 websites powered by Umbraco CMS, from startups and charities to global brands and fortune 500 companies.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+  <section class="umbraco-logo-slider">
+      <div class="item"><img src="./img/carlsberg.png" alt="Carlsberg"></div>
+      <div class="item"><img src="./img/microsoft.png" alt="Microsoft"></div>
+      <div class="item"><img src="./img/vogue.png" alt="Vogue"></div>
+      <div class="item"><img src="./img/warner-bros.png" alt="Warner Bros"></div>
+      <div class="item"><img src="./img/heinz.png" alt="Heinz"></div>
+      <div class="item"><img src="./img/wired.png" alt="Wired"></div>
+      <div class="item"><img src="./img/mos.png" alt="Ministry of Sound"></div>
+      <div class="item"><img src="./img/sony.png" alt="Sony"></div>
+    </section>
+  <section class="content grid">
     <div class="container-fluid">
       <div class="row padding-b">
-          <div class="col-12 offset-md-2 col-md-3 col-lg-2">
-              <p><img src="../img/umbraco-logo.png" alt="Umbraco" style="width: 200px;"></p>
+          <div class="col-12 offset-md-2 col-md-4 align-self-center">
+              <h2>The award winning, responsive CMS</h2>
+              <p>Umbraco  is one of the most deployed CMS systems on the Microsoft stack.</p>
+              <p>Umbraco CMS offers the power and flexibility to run anything from pure publishing sites and large media sites, to complex applications for Fortune 500 companies. Massively extendable, there is no limit to what you can do.</p>
           </div>
-        <div class="col-12  col-md-6 col-lg-6">
-          <p>Granite Digital are passionate about our customers and how they delight their customers through digital experiences. We believe in the power and value of Umbraco and we're here to make your adoption and integration of this feature-driven CMS painless for your organisation.</p>
-            <p>We recognise the advantages of this powerful platform. We'll work with you to determine all of your needs. From web development and deployment to ongoing management, marketing, and strategy. We are your trusted partner in results-oriented, experience-driven services.</p>
-            <p>As a Umbraco Certified Gold Partner, you'll benefit from our vast knowledge of Umbraco and their latest materials. You will have direct access to the Umbraco HQ team, for support and advice on solutions, and best-practice methodologies.</p>
+        <div class="col-12  col-md-4">
+            <img src="./img/umbraco-coasters.jpg" alt="">
+        </div>
+      </div>
+      <img src="https://via.placeholder.com/1920x600" alt="" class="padding-b hidden"> </div>
+  </section>
+      <section class="content grid">
+    <div class="container-fluid">
+      <div class="row padding-b">
+          <div class="col-12 offset-md-2 col-md-4 align-self-center">
+              <h2>Why over 400,000 sites choose Umbraco</h2>
+              <p>Umbraco offers everything that site owners, content managers, designers, and developers need to create and maintain contemporary sites of the highest quality.</p>
+          </div>
+        <div class="col-12  col-md-4">
+            <img src="./img/umbraco-drum.jpg" alt="">
         </div>
       </div>
       <img src="https://via.placeholder.com/1920x600" alt="" class="padding-b hidden"> </div>
   </section>
 </main>
 <div class="footer-cta">
-  <div class="box">
-    <h2>Got more questions?</h2>
-    <p>We'd love to hear from you. Just
-      <call></call>
-      <a href="tel:+35318512800">+ 353 (1) 6337979</a></p>
+  <div class="box" style="background-color: #3544B1;">
+    <h2>Granite Digital are an Umbraco Gold Partner</h2>
+    <p>Contact us to find out how Umbraco can help your business.</p>
+      <p>Call <a href="tel:+35318512800">+ 353 (1) 6337979</a> or Email <a href="mailto:umbraco@granite.ie">umbraco@granite.ie</a></p>
   </div>
 </div>
 <footer>

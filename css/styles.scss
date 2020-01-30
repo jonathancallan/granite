@@ -178,7 +178,7 @@ table {
 .hero {
   margin-top   : 30vh;
   margin-bottom: 7vw;
-
+    
   h1 {
     font-family            : $font-family-headline;
     text-transform         : uppercase;
@@ -281,6 +281,8 @@ table {
     }
   }
 }
+
+
 /* Hero Work Pages --- NEDS TO BE SCSSED !!! */
 .portfolio .hero-background img {
     width: 100%;
@@ -486,6 +488,24 @@ video#masked {
     margin: 0 40px;
   }
 }
+
+
+/* ---------------------------- Umbraco Logo Slider ---------------------------- */
+.umbraco-logo-slider {
+    background-color: #ffffff;
+    padding: 50px 0;
+    margin: 50px 0;
+  .item img {
+    max-height: 100px;
+    margin: 0 40px;
+  }
+}
+@media (min-width:992px) {
+.umbraco-logo-slider {
+    margin: 15px 0 100px 0;
+}
+}
+
 /* ---------------------------- Section Content Standard ---------------------------- */
 .content {
   margin-top   : $spacer * 5;
@@ -792,6 +812,10 @@ nav#main-cta {
       position        : relative;
       transition      : all $time-base ease-in-out;
       color           : $color-black;
+        
+        .hidden-xs {
+            display: none;
+        }
 
       &:hover {
         text-decoration: none;
@@ -804,6 +828,14 @@ nav#main-cta {
         font-weight     : 700;
         text-transform  : uppercase;
       }
+        &#trigger-menu {
+            padding-left: $spacer;
+            padding-right: $spacer;
+            
+            img {
+                width: 20px;
+            }
+        }
     }
     }
   }
@@ -814,6 +846,14 @@ nav#main-cta {
           right   : 20px;
         ul li a {
             padding: 10px 20px;
+            
+            &#trigger-menu {
+                padding-left: $spacer*2;
+                padding-right: $spacer*2;
+                img {
+                    width: 22px;
+                }
+            }
         }
     }
 }
@@ -882,6 +922,33 @@ nav#main-cta {
     transform: scale(.9);
   }
 }
+/* ---------------------------- Hero Image ---------------------------- */
+.hero.image {
+    margin: 0;
+    min-height: 90vh;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    h1 {
+        color: #fff;
+            background             : -webkit-linear-gradient(45deg, #FFF 0%,#FFF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .centre {
+        justify-content: center;
+    }
+}
+@media (min-width:768px) { 
+    .hero.image {
+        min-height: 70vh;
+    }
+}
+
+
 /* ---------------------------- Section Divider Headings ---------------------------- */
 .divider {
   h2 {

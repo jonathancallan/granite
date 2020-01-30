@@ -24,6 +24,7 @@ $basePath = $_SERVER[ 'DOCUMENT_ROOT' ];
 <link href="./plugins/bootstrap-4.1.3/css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./plugins/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="./plugins/slick/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="./plugins/modal-video/css/modal-video.min.css" />
 <link href="./css/styles.css" rel="stylesheet">
 
 <!-- Favicons ICONS -->

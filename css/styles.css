@@ -311,6 +311,18 @@ video#masked {
     max-height: 75px;
     margin: 0 40px; }
 
+/* ---------------------------- Umbraco Logo Slider ---------------------------- */
+.umbraco-logo-slider {
+  background-color: #ffffff;
+  padding: 50px 0;
+  margin: 50px 0; }
+  .umbraco-logo-slider .item img {
+    max-height: 100px;
+    margin: 0 40px; }
+
+@media (min-width: 992px) {
+  .umbraco-logo-slider {
+    margin: 15px 0 100px 0; } }
 /* ---------------------------- Section Content Standard ---------------------------- */
 .content {
   margin-top: 50px;
@@ -543,6 +555,8 @@ nav#main-cta {
         position: relative;
         transition: all 200ms ease-in-out;
         color: #000; }
+        nav#main-cta ul li a .hidden-xs {
+          display: none; }
         nav#main-cta ul li a:hover {
           text-decoration: none;
           transform: translateY(3px); }
@@ -551,13 +565,23 @@ nav#main-cta {
           color: #fff;
           font-weight: 700;
           text-transform: uppercase; }
+        nav#main-cta ul li a#trigger-menu {
+          padding-left: 10px;
+          padding-right: 10px; }
+          nav#main-cta ul li a#trigger-menu img {
+            width: 20px; }
 
 @media (min-width: 768px) {
   nav#main-cta {
     top: 20px;
     right: 20px; }
     nav#main-cta ul li a {
-      padding: 10px 20px; } }
+      padding: 10px 20px; }
+      nav#main-cta ul li a#trigger-menu {
+        padding-left: 20px;
+        padding-right: 20px; }
+        nav#main-cta ul li a#trigger-menu img {
+          width: 22px; } }
 /* Circular disc that opens to show main menu */
 .main-menu-open .disc {
   animation-name: explode; }
@@ -609,6 +633,27 @@ nav#main-cta {
     transform: scale(1); }
   100% {
     transform: scale(0.9); } }
+/* ---------------------------- Hero Image ---------------------------- */
+.hero.image {
+  margin: 0;
+  min-height: 90vh;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px; }
+  .hero.image h1 {
+    color: #fff;
+    background: -webkit-linear-gradient(45deg, #FFF 0%, #FFF 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .hero.image .centre {
+    justify-content: center; }
+
+@media (min-width: 768px) {
+  .hero.image {
+    min-height: 70vh; } }
 /* ---------------------------- Section Divider Headings ---------------------------- */
 .divider h2 {
   font-family: "Oswald", sans-serif;
