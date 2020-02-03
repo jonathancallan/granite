@@ -31,7 +31,17 @@ $ogUrl = "https://www.granite.ie/academy";
     <div class="container-fluid">
       <div class="row">
         <div class="offset-sm-3 col-sm-7 col-xl-6">
-          <p>The new roles will include data analysts, cloud infrastructure experts, software developers, Umbraco engineers, SEO analysts, creative roles and UX designers. Granite will hire experienced professionals and new talented graduates for its Academy programme.</p>
+            <h2>The Job Roles</h2>
+          <ul style="margin-bottom: 20px;">
+            <li>Data analysts.</li>
+            <li>Cloud infrastructure experts.</li>
+            <li>Software developers.</li>
+            <li>Umbraco engineers.</li>
+            <li>SEO analysts.</li>
+            <li>UI Designers.</li>
+            <li>UX Design/Research.</li>
+          </ul>
+          <p>We'll be hiring experienced professionals and new talented graduates for the Academy programmes.</p>
           <p>Our academy is designed to immerse you in the digital world, as well as provide opportunities for personal and professional development. Interns at Granite will bring new ideas, curiosity and challenge how we deliver solutions for our clients.</p>
           <h3>Do you want to join the crew?</h3>
           <p>Email <a href="mailto:careers@granite.ie?subject=Digital Academy">careers@granite.ie</a></p>

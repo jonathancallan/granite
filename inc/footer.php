@@ -27,6 +27,8 @@
           </li>
           <li><a href="./search-engine-optimisation-seo">SEO Consultants</a>
           </li>
+            <li><a href="./umbraco">Umbraco CMS</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -73,7 +75,7 @@
     <div class="col-sm-4"></div>
   </div>
   <div class="row">
-    <div class="col-xs-12 offset-sm-1">&copy;2019 Granite Digital</div>
+    <div class="col-xs-12 offset-sm-1">&copy;2020 Granite Digital</div>
   </div>
 </div>
 </footer>

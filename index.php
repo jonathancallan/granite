@@ -38,19 +38,25 @@ $ogUrl = "https://www.granite.ie/";
   <section class="content grid bg-white padding-t margin-b-zero" style="margin-top:0; padding-bottom: 50px;">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-4 offset-xl-1 col-xl-3">
-          <h2>Adademy</h2>
-          <h3><a href="./academy.php">50 new jobs in Dublin, Cork and Galway</a></h3>
+          <div class="col-lg-6 col-xl-3">
+          <h2>50 New Jobs!</h2>
+          <h3><a href="./granite-digital-to-create-50-new-jobs-in-dublin-cork-galway.php">We're hiring in Dublin, Cork and Galway</a></h3>
+          <p>The jobs are part of a &euro;2.5 million investment to grow revenue from €5 million to €10 million by 2022.</p>
+          <p><a href="./granite-digital-to-create-50-new-jobs-in-dublin-cork-galway.php" class="icon forward">Find out more</a></p>
+        </div>
+        <div class="col-lg-6 col-xl-3">
+          <h2>Our Adademy</h2>
+          <h3><a href="./academy.php">Opportunities for personal and professional development. </a></h3>
           <p>Our academy is designed to immerse you in the digital world, as well as provide opportunities for personal and professional development.</p>
           <p><a href="./academy.php" class="icon forward">Find out more</a></p>
         </div>
-        <div class="col-lg-4 offset-xl-1 col-xl-3">
-          <h2>UX Training</h2>
-          <h3><a href="./ux-training/ux-essentials.php">UX Essentials Training</a></h3>
+        <div class="col-lg-6 col-xl-3">
+          <h2>UX Essentials Training</h2>
+          <h3><a href="./ux-training/ux-essentials.php">Client Workshops</a></h3>
           <p>Our UX Essentials workshop is an invite only event for Granite clients.</p>
           <p><a href="./ux-training/ux-essentials.php" class="icon forward">Find out more</a></p>
         </div>
-        <div class="col-lg-4 offset-xl-1 col-xl-3">
+        <div class="col-lg-6 col-xl-3">
           <h2>Digital agency</h2>
           <h3><a href="./what-we-do.php">Design, Development &amp; Marketing</a></h3>
           <p>Our team of experts will simplify the process for you, making it a jargon free experience and ensuring you create the best face for your business online.</p>
