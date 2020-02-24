@@ -45,7 +45,7 @@ $ogUrl = "https://www.granite.ie/";
           <p><a href="./granite-digital-to-create-50-new-jobs-in-dublin-cork-galway.php" class="icon forward">Find out more</a></p>
         </div>
         <div class="col-lg-6 col-xl-3">
-          <h2>Our Adademy</h2>
+          <h2>Our Academy</h2>
           <h3><a href="./academy.php">Opportunities for personal and professional development. </a></h3>
           <p>Our academy is designed to immerse you in the digital world, as well as provide opportunities for personal and professional development.</p>
           <p><a href="./academy.php" class="icon forward">Find out more</a></p>
