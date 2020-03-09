@@ -44,33 +44,7 @@ $ogUrl = "https://www.granite.ie/";
           <div class="col-12 offset-md-2 col-md-4 col-lg-4">
             <div class="row">
               <div class="col-12 padding-b">
-                <h2><a href="./ui-designer.php">UI Designer</a></h2>
-                <p>We are always on the lookout for passionate and super-talented UI Designers who are able to create amazing user experiences. If you have an eye for clean, well structured design and possess superior UI skills, then we want to hear
-                  from you.</p>
-                <p><a href="./ui-designer.php" class="icon forward">Find out more</a></p>
-              </div>
-              <div class="col-12 padding-b">
-                <h2><a href="./ux-designer.php">UX Designer</a></h2>
-                <p>We are always in the market to speak with an individual who is a passionate and super-talented UX Designer, able to create amazing user experiences.</p>
-                <p><a href="./ux-designer.php" class="icon forward">Find out more</a></p>
-              </div>
-              <div class="col-12 padding-b">
-                <h2><a href="./seo-manager.php">SEO Manager</a></h2>
-                <p>At Granite Digital we are offering a fantastic opportunity for an experienced SEO Specialist to join our expanding team. We are looking for someone with a passion for all things SEO combined with drive, enthusiasm and a real
-                  passion for achieving results. The successful candidate will join a team of SEO experts working on developing &amp; executing SEO strategies that significantly impact on clients’ websites performance.</p>
-                <p><a href="./seo-manager.php" class="icon forward">Find out more</a></p>
-              </div>
-              <div class="col-12 padding-b">
-                <h2><a href="./dotnet-web-developer.php">.NET Developer</a></h2>
-                <p>We have a fast-growing developer team who love solving big problems and building systems to address them. We build robust, highly scalable services in fast cycles. We are always interested in hearing from .net developers who have
-                  that passion and are looking to join the team.</p>
-                <p><a href="./dotnet-web-developer.php" class="icon forward">Find out more</a></p>
-              </div>
-              <div class="col-12 padding-b">
-                <h2><a href="./senior-digital-project-manager.php">Senior Digital Project Manager</a></h2>
-                <p>If you are an experienced Digital Project Manager looking to join our expanding team in the Dublin Office, we would love to hear from you. We have are full complement at the moment but will be looking to expand the team in the
-                  near future.</p>
-                <p><a href="./senior-digital-project-manager.php" class="icon forward">Find out more</a></p>
+                <iframe src="https://www.rezoomo.com/company/granite-digital/jobs/?source=iframe&color=f89500" style="width:100%;min-height:600px;overflow:auto;border:0;"></iframe>
               </div>
             </div>
           </div>
