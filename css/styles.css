@@ -2,6 +2,12 @@
 .hidden {
   display: none !important; }
 
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none !important; } }
+.margin-zero {
+  margin: 0 !important; }
+
 html {
   margin: 0;
   padding: 0; }
@@ -22,6 +28,42 @@ figcaption {
   margin-top: 1em;
   color: #555; }
 
+/* ---------------------------- Full width Notification  Used first for COVID-19 ---------------------------- */
+section.notification {
+  background: #FEE101;
+  padding: 30px 0;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  transition: all 300ms ease-in-out;
+  animation-name: animate-notification;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1000ms;
+  opacity: 0; }
+  section.notification p:last-child {
+    margin-bottom: 0; }
+
+@media (max-width: 767px) {
+  section.notification {
+    padding: 20px 0;
+    width: auto; }
+    section.notification h2 {
+      font-size: 21px; } }
+@keyframes animate-notification {
+  0% {
+    opacity: 0;
+    transform: translateY(40px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+/* Hide the notice if class applied to parent. Used to hide the notice on the notification pages themselves */
+.hide-notification .notification {
+  display: none; }
+
 /* ---------------------------- Apply Page Colours ---------------------------- */
 .bg-white {
   background-color: #fff; }
@@ -30,8 +72,8 @@ figcaption {
 .home #angle-bar polygon.primary,
 .home .content h2::before,
 .home #main-cta li a.cta {
-  fill: #5E00F8;
-  background-color: #5E00F8; }
+  fill: #000;
+  background-color: #000; }
 .home .logo path {
   fill: #000000; }
 
@@ -71,6 +113,15 @@ figcaption {
 .careers .logo path {
   fill: #0072C8; }
 
+/* Notification */
+.notification #angle-bar polygon.primary,
+.notification .content h2::before {
+  fill: #FEE101; }
+.notification #main-cta li a.cta {
+  background-color: #000; }
+.notification .logo path {
+  fill: #000; }
+
 /* ---------------------------- Type General ---------------------------- */
 body {
   font-family: "Open Sans", sans-serif;
@@ -82,7 +133,7 @@ li {
   margin-bottom: 10px; }
 
 p {
-  line-height: 2; }
+  line-height: 1.6em; }
 
 p.small-text {
   text-transform: uppercase;
@@ -306,7 +357,8 @@ video#masked {
     background-image: url(../img/home-slider-careers-mask-banner.svg); } }
 .client-logo-slider {
   background-color: #ffffff;
-  padding: 50px 0; }
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc; }
   .client-logo-slider .item img {
     max-height: 75px;
     margin: 0 40px; }
@@ -403,6 +455,19 @@ video#masked {
       font-size: 24px; } }
 /* ---------------------------- Hero Video ---------------------------- */
 /* ---------------------------- Navigation ---------------------------- */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+  transform: translateY(0); }
+  .button:active, .button:hover {
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(3px); }
+
 .backlink a:link,
 .backlink a:visited {
   display: inline-block;
@@ -563,7 +628,6 @@ nav#main-cta {
         nav#main-cta ul li a.cta {
           background-color: #000;
           color: #fff;
-          font-weight: 700;
           text-transform: uppercase; }
         nav#main-cta ul li a#trigger-menu {
           padding-left: 10px;
@@ -893,6 +957,7 @@ footer {
 
 @media (min-width: 768px) {
   footer {
-    padding: 100px 0 50px; }
+    padding: 100px 0 50px;
+    margin-bottom: 200px; }
     footer h4 {
       margin-top: 0; } }

@@ -32,6 +32,15 @@ $page-colour-secondary-careers: #0072C8;
 .hidden {
     display: none!important;
 }
+@media (max-width:767px) {
+    .hidden-mobile {
+    display: none!important;
+    }
+}
+
+.margin-zero {
+    margin: 0 !important;
+}
 html {
   margin : 0;
   padding: 0;
@@ -74,6 +83,55 @@ figcaption {
   background-image: url("../img/chevron.svg");
   background-size : contain;
 }
+
+/* ---------------------------- Full width Notification  Used first for COVID-19 ---------------------------- */
+section.notification {
+    background: #FEE101;
+    padding: 30px 0;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+    animation-name: animate-notification;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1000ms;
+    opacity: 0;
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width:767px) {
+    section.notification {
+        padding: 20px 0;
+        width: auto;
+        h2 {
+            font-size: $font-size-base*1.5;
+        }
+    }
+    
+}
+@keyframes animate-notification {
+  0%   {
+      opacity: 0;
+      transform: translateY(40px);
+      
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/* Hide the notice if class applied to parent. Used to hide the notice on the notification pages themselves */
+.hide-notification .notification {
+    display: none;
+}
+
 /* ---------------------------- Apply Page Colours ---------------------------- */
 
 .bg-white {
@@ -84,8 +142,8 @@ figcaption {
   #angle-bar polygon.primary,
   .content h2::before,
   #main-cta li a.cta {
-    fill            : $page-colour-primary-home;
-    background-color: $page-colour-primary-home;
+    fill            : $color-black;
+    background-color: $color-black;
   }
 
   .logo path {
@@ -144,6 +202,21 @@ figcaption {
     fill: $page-colour-secondary-careers;
   }
 }
+
+/* Notification */
+.notification {
+  #angle-bar polygon.primary,
+  .content h2::before {
+    fill            : #FEE101;
+  }
+    #main-cta li a.cta {
+        background-color: $color-black;
+    }
+  .logo path {
+    fill: $color-black;
+  }
+}
+
 /* ---------------------------- Type General ---------------------------- */
 body {
   font-family: $font-family-body;
@@ -157,7 +230,7 @@ li {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.6em;
 }
 p.small-text {
     text-transform: uppercase;
@@ -174,6 +247,7 @@ table {
     padding: 3px 5px;
   }
 }
+
 /* ---------------------------- Hero ---------------------------- */
 .hero {
   margin-top   : 30vh;
@@ -483,6 +557,7 @@ video#masked {
 .client-logo-slider {
     background-color: #ffffff;
     padding: 50px 0;
+    border-bottom: 1px solid #ccc;
   .item img {
     max-height: 75px;
     margin: 0 40px;
@@ -615,6 +690,22 @@ video#masked {
 }
 /* ---------------------------- Hero Video ---------------------------- */
 /* ---------------------------- Navigation ---------------------------- */
+.button {
+    display: inline-block;
+    padding: $spacer $spacer*2;
+    background-color: $color-black;
+    text-transform: uppercase;
+    color: $color-white;
+    transition: all $time-base ease-in-out;
+    transform : translateY(0);
+    &:active,
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        transform: translateY(3px);
+    }
+}
+
 .backlink {
   a:link,
   a:visited {
@@ -825,7 +916,6 @@ nav#main-cta {
       &.cta {
         background-color: $color-black;
         color           : $color-white;
-        font-weight     : 700;
         text-transform  : uppercase;
       }
         &#trigger-menu {
@@ -1282,6 +1372,7 @@ footer {
 @media (min-width:768px) {
   footer {
       padding  : $spacer*10 0 $spacer*5;
+      margin-bottom: 200px;
     h4 {
       margin-top: 0;
     }
