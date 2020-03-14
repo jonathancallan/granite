@@ -1,10 +1,4 @@
 /* ---------------------------- Variables ---------------------------- */
-$color-black: #000;
-$color-dark-grey: #555;
-$color-white: #fff;
-$color-orange: #F88600;
-$colour-link: #007bff;
-$colour-lightest-grey: #f2f2f2;
 $font-family-headline: "Oswald", sans-serif;
 $font-family-body: "Open Sans", sans-serif;
 $font-size-base: 14px;
@@ -17,6 +11,12 @@ $font-size-supersize: $font-size-base + 50px;
 $font-size-ubersize: $font-size-base + 80px;
 $spacer: 10px;
 $time-base: 200ms;
+$color-black: #000;
+$color-dark-grey: #555;
+$color-white: #fff;
+$color-orange: #F88600;
+$colour-link: #007bff;
+$colour-lightest-grey: #f2f2f2;
 $page-colour-primary-home: #5E00F8;
 $page-colour-secondary-home: #000000;
 $page-colour-primary-work: #00D387;
@@ -140,12 +140,13 @@ section.notification {
 /* Home */
 .home {
   #angle-bar polygon.primary,
-  .content h2::before,
   #main-cta li a.cta {
-    fill            : $color-black;
-    background-color: $color-black;
+    fill            : pink;
+    background-color: red;
   }
-
+    .content h2::before {
+        background-color: $color-black;
+    }
   .logo path {
     fill: $page-colour-secondary-home;
   }

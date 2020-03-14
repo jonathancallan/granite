@@ -70,9 +70,10 @@ section.notification {
 
 /* Home */
 .home #angle-bar polygon.primary,
-.home .content h2::before,
 .home #main-cta li a.cta {
-  fill: #000;
+  fill: pink;
+  background-color: red; }
+.home .content h2::before {
   background-color: #000; }
 .home .logo path {
   fill: #000000; }

@@ -60,7 +60,7 @@ $ogUrl = "https://www.granite.ie/";
         </div>
     </section>
   <section class="content grid bg-white padding-t margin-b-zero" style="margin-top:0; padding-bottom: 50px;">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
           <div class="col-lg-6 col-xl-3">
           <h2><a href="./granite-digital-to-create-50-new-jobs-in-dublin-cork-galway.php">50 New Jobs!</a></h2>
