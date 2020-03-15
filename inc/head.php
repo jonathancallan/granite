@@ -4,6 +4,13 @@ $basePath = $_SERVER[ 'DOCUMENT_ROOT' ];
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- OneTrust Cookies Consent Notice start -->
+<script type="text/javascript" src="https://cookie-cdn.cookiepro.com/consent/d80190be-ca06-4fd8-a90f-a88b21dcc052/OtAutoBlock.js"></script>
+<script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="d80190be-ca06-4fd8-a90f-a88b21dcc052"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">

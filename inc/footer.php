@@ -209,15 +209,6 @@
 
 <!-- End Piwik Code -->
 
-<!-- OneTrust Cookies Consent Notice start -->
-
-<script src="https://cookiepro.blob.core.windows.net/consent/ca91b006-be6d-4359-a33d-03669b7bca67.js" type="text/javascript" charset="UTF-8"></script>
-
-<script type="text/javascript">
-  function OptanonWrapper() {}
-</script>
-
-<!-- OneTrust Cookies Consent Notice end -->
 
 <script>
 
