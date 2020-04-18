@@ -7,18 +7,6 @@ $ogUrl = "https://www.granite.ie/";
 <?php require 'inc/head.php' ?>
 
 <body class="home">
-        <section class="notification">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1 hidden-mobile"><img src="./img/icon-virus.svg" alt="" style="max-width: 60px;"></div>
-                <div class="col-lg-11">
-                    <h2><b>Our COVID-19 Business Continuity Plan</b></h2>
-        <p class="hidden-mobile">We know your digital business operations will be reliant on Granite providing you with reliable and uninterrupted service and with this in mind we would like to share with you the measures we are taking to ensure we are 100% operational.</p>
-                    <p><a href="./covid-19-granite-business-continuity-plan-fully-operational" class="icon forward">Find out more</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
 <?php require 'inc/header.php'; ?>
 <main>
   <div class="slider-wrapper">
@@ -34,35 +22,46 @@ $ogUrl = "https://www.granite.ie/";
       <div class="item careers"><a href="./careers"><b>Careers</b></a> </div>
     </div>
   </div>
-    <section class="content news hidden">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2><a href="">Granite partners with Dobiquity to create COVID-19 checklist</a></h2>
-                    <h4>13 March 2020</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error cum, dolor esse fuga aperiam modi velit dignissimos reiciendis voluptatibus nam. Sapiente cupiditate quis quia explicabo quos, non dignissimos voluptatibus perspiciatis.</p>
-                    <p><a href="#" class="icon forward">Read the full story</a></p>
-                </div>
-                <div class="col-lg-6">
-                    <h2><a href="#">Another news article heading here.</a></h2>
-                    <h4>14 March 2020</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor modi, reprehenderit impedit laboriosam. Odio consequuntur iusto suscipit enim autem repudiandae consequatur at! Aliquid quod laborum pariatur quidem corrupti quam consequatur.</p>
-                    <p><a href="#" class="icon forward">Read the full story</a></p>
-                </div>
-            </div>
+  <section class="content news hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2><a href="">Granite partners with Dobiquity to create COVID-19 checklist</a></h2>
+          <h4>13 March 2020</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error cum, dolor esse fuga aperiam modi velit dignissimos reiciendis voluptatibus nam. Sapiente cupiditate quis quia explicabo quos, non dignissimos voluptatibus perspiciatis.</p>
+          <p><a href="#" class="icon forward">Read the full story</a></p>
         </div>
-        <div class="container" style="margin-top: 40px;">
-            <div class="row">
-                <div class="col">
-                    <p class="margin-zero"><a href="#" class="button">View all news</a></p>
-                </div>
-            </div>
+        <div class="col-lg-6">
+          <h2><a href="#">Another news article heading here.</a></h2>
+          <h4>14 March 2020</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor modi, reprehenderit impedit laboriosam. Odio consequuntur iusto suscipit enim autem repudiandae consequatur at! Aliquid quod laborum pariatur quidem corrupti quam consequatur.</p>
+          <p><a href="#" class="icon forward">Read the full story</a></p>
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="container" style="margin-top: 40px;">
+      <div class="row">
+        <div class="col">
+          <p class="margin-zero"><a href="#" class="button">View all news</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="background-color: #ffffff;">
+    <div class="container">
+      <div class="row">
+        <div class="coll"> <a href="https://www.granite.ie/ei-digital-grant/" style="display: block;">
+          <picture style="display:block;">
+            <source media="(min-width: 650px)" srcset="./img/Covid19_Retail_Grant_EI_1200x500.gif">
+            <img src="./img/Covid19_Retail_Grant_EI_828x828.gif" alt="Granite Enterprise Ireland Digital Grant" style="width:auto;"> </picture>
+          </a> </div>
+      </div>
+    </div>
+  </section>
   <section class="content grid bg-white padding-t margin-b-zero" style="margin-top:0; padding-bottom: 50px;">
     <div class="container">
       <div class="row">
-          <div class="col-lg-6 col-xl-3">
+        <div class="col-lg-6 col-xl-3">
           <h2><a href="./granite-digital-to-create-50-new-jobs-in-dublin-cork-galway.php">50 New Jobs!</a></h2>
           <h3>We're hiring in Dublin, Cork and Galway</h3>
           <p>The jobs are part of a &euro;2.5 million investment to grow revenue from €5 million to €10 million by 2022.</p>
@@ -89,7 +88,7 @@ $ogUrl = "https://www.granite.ie/";
       </div>
     </div>
   </section>
-          <section class="client-logo-slider">
+  <section class="client-logo-slider">
     <div class="item"><img src="./img/dalata.png" alt="Dalata Hotel Group"></div>
     <div class="item"><img src="./img/davy.png" alt="Davy"></div>
     <div class="item"><img src="./img/ucd.png" alt="UCD"></div>
@@ -103,5 +102,17 @@ $ogUrl = "https://www.granite.ie/";
     <div class="item"><img src="./img/forsa.png" alt="Forsa"></div>
   </section>
 </main>
+<section class="notification">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1 hidden-mobile"><img src="./img/icon-virus.svg" alt="" style="max-width: 60px;"></div>
+      <div class="col-lg-11">
+        <h2><b>Our COVID-19 Business Continuity Plan</b></h2>
+        <p class="hidden-mobile">We know your digital business operations will be reliant on Granite providing you with reliable and uninterrupted service and with this in mind we would like to share with you the measures we are taking to ensure we are 100% operational.</p>
+        <p><a href="./covid-19-granite-business-continuity-plan-fully-operational" class="icon forward">Find out more</a></p>
+      </div>
+    </div>
+  </div>
+</section>
 <footer class="">
   <?php require 'inc/footer.php'; ?>
