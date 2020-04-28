@@ -64,13 +64,13 @@
         <h4 itemprop="addressLocality">Galway</h4>
       </span>
 
-      <ul itemscope itemtype="https://schema.org/ContactPoint">
+      <!-- <ul itemscope itemtype="https://schema.org/ContactPoint">
         <li class="telephone"><a href="tel:+353091 511457" itemprop="telephone">+353 (0)91 511457 </a> </li>
         <li class="email"><a href="mailto: info@granite.ie" itemprop="email">info@granite.ie</a>
         </li>
         <li class="map"><a href="https://www.google.ie/maps?q=gray+office+park+map&amp;ion=1&amp;espv=2&amp;bav=on.2,or.r_cp.&amp;bvm=bv.102537793,d.ZGU&amp;biw=1366&amp;bih=628&amp;dpr=1&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0CAcQ_AUoAmoVChMIiNXV-sXvxwIVoaDbCh0ozgnN"
             target="_blank">View Map</a> </li>
-      </ul>
+      </ul> -->
     </div>
     <div class="col-sm-4"></div>
   </div>
@@ -105,6 +105,7 @@
 <script type="text/javascript" src="./js/scripts.js"></script>
 <!-- Copied from old site -->
 <script>
+    /*
   (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
     i[r] = i[r] || function() {
@@ -125,6 +126,7 @@
   ga('create', 'UA-6450443-5', 'auto');
 
   ga('send', 'pageview');
+  */
 </script>
 
 
@@ -153,7 +155,14 @@
     })();*/
 </script>
 
+<script>
 
+  window.intercomSettings = {
+    app_id: "s4yl9h56"
+  };
+</script>
+
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s4yl9h56';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 
 <!--End of Tawk.to Script-->
 
@@ -209,17 +218,20 @@
 
 <!-- End Piwik Code -->
 
+<!-- OneTrust Cookies Consent Notice start -->
 
-<script>
+<script src="https://cookiepro.blob.core.windows.net/consent/ca91b006-be6d-4359-a33d-03669b7bca67.js" type="text/javascript" charset="UTF-8"></script>
 
-  window.intercomSettings = {
-    app_id: "s4yl9h56",
-    horizontal_padding: 80,
-    vertical_padding: 120
-  };
+<script type="text/javascript">
+  function OptanonWrapper() {}
 </script>
 
-<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s4yl9h56';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<!-- OneTrust Cookies Consent Notice end -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVR3M3G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 </body>
 
